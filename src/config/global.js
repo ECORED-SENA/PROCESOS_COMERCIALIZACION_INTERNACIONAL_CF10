@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Logística y Distribución Física Internacional (DFI)',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'En la logística y la Distribución Física Internacional, se lleva a cabo la operación de desplazar una carga desde su origen al lugar adecuado, encontrando la solución más satisfactoria para llevar el producto, en las cantidades requeridas, al lugar acordado y logrando los costos más bajos; de acuerdo con las condiciones pactadas y los términos de negociación establecidos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -26,216 +25,195 @@ export default {
         numero: '1',
         titulo: 'Componentes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Componentes',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Encabezados',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Párrafos',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Botones',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Animación 2D',
+            titulo: 'Listas',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Video interactivo',
+            titulo: 'Tablas',
             hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
+
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Componentes',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Encabezados',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Párrafos',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Botones',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Listas',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
+            titulo: 'Tablas',
             hash: 't_3_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.6',
-            titulo: 'Procesos textiles',
+            titulo: 'Imagen',
             hash: 't_3_6',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Producción Audiovisual',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Infografía Animada',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Video Motion',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Motion + Presentador',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Fundamentación Textil',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Identificación fibras por combustión',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Clasificación de los hilos',
+            hash: 't_5_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.4',
+            titulo: 'Clasificación de tejidos',
+            hash: 't_5_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Fundamentación Textil',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Identificación fibras por combustión',
+            hash: 't_6_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.3',
+            titulo: 'Clasificación de los hilos',
+            hash: 't_6_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.4',
+            titulo: 'Clasificación de tejidos',
+            hash: 't_6_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.5',
+            titulo: 'Caracterización de los tejidos',
+            hash: 't_6_5',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -266,111 +244,80 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Cámara de Comercio de Bogotá. (2010). Guía práctica: logística y distribución física internacional: clave en las operaciones de comercio exterior',
+      link: 'http://hdl.handle.net/11520/25206',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Comunidad Andina. (2013). Manual sobre Control de Contenedores.',
+      link: 'http://www.comunidadandina.org/DS/Manual%20Contenedores.pdf',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Decreto 1165 de 2019. Por el cual se dictan disposiciones relativas al Régimen de Aduanas en desarrollo de la Ley 1609 de 2013. Julio 2 de 2019. D.O. Nº 51.002',
+      link: 'http://www.suin-juriscol.gov.co/viewDocument.asp?id=30036618',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Diario del Exportador. (s. f.). Portal especializado en Comercio Exterior y Gestión de los Negocios Internacionales.',
+      link: 'https://www.diariodelexportador.com/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Ruibal, A. (1994). Gestión logística de la Distribución Física Internacional. Grupo Editorial Norma S.A.',
     },
     {
       referencia:
         'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://dokumen.tips/documents/distribucion-fisica-internacional-alberto-ruibal-handabaka.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Carga',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Conjunto de mercancías que son objeto de una operación de transporte desde un puerto, aeropuerto, terminal terrestre o lugar de entrega, con destino a otro puerto, aeropuerto, terminal terrestre o lugar de destino, amparadas en un documento de transporte. (Decreto 1165, 2019, art. 3).',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Distribución Física Internacional',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es el proceso logístico que se desarrolla en torno a situar un producto en el mercado internacional cumpliendo con los términos negociados entre el vendedor y el comprador. (Cámara de Comercio de Bogotá, 2019). ',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Documento de Transporte',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Término genérico que comprende el documento marítimo, aéreo, terrestre, fluvial o ferroviario, que el transportador respectivo o el agente de carga internacional o el operador de transporte multimodal entrega como certificación del contrato de transporte y recibo de la mercancía que será entregada al consignatario o destinatario en el lugar de destino. (Decreto 1165, 2019, art. 3).',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'Incoterms',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Términos de negociación que definen las responsabilidades y obligaciones para el vendedor y el comprador.',
     },
     {
-      termino: 'Moda',
+      termino: 'Medio de transporte',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es cualquier nave, aeronave, vagón de ferrocarril o vehículo de transporte por carretera, incluidos los remolques y semirremolques, cuando están incorporados a un tractor o a otro vehículo automóvil. (Decreto 1165, 2019, art. 3).',
     },
     {
-      termino: 'DIseño',
+      termino: 'Mercancía',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Son todos los bienes susceptibles de ser clasificados en la nomenclatura arancelaria y sujetos a control aduanero. (Decreto 1165, 2019, art. 3).',
     },
     {
-      termino: 'Diseña',
+      termino: 'Territorio Aduanero Nacional - TAN',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Demarcación dentro de la cual se aplica la legislación aduanera; cubre todo el territorio nacional, incluyendo el subsuelo, el mar territorial, la zona contigua, la plataforma continental, la zona económica exclusiva, el espacio aéreo, el segmento de la órbita geoestacionaria, el espectro electromagnético y el espacio donde actúa el Estado colombiano, de conformidad con el derecho internacional o con las leyes colombianas a falta de normas internacionales. (Decreto 1165, 2019, art. 3).',
     },
     {
-      termino: 'Tipología',
+      termino: 'Transporte multimodal',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Es el traslado de mercancías por dos o más modos de transporte diferentes, en virtud de un único contrato de transporte multimodal, desde un lugar situado en un país en que el operador de transporte multimodal toma las mercancías bajo su custodia y responsabilidad, hasta otro lugar designado para su entrega, y en el que se cruza por lo menos una frontera. (Decreto 1165, 2019, art. 3).',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Unidad de carga',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'El continente utilizado para el acondicionamiento de mercancías con el objeto de posibilitar o facilitar su transporte, susceptible de ser remolcado, pero que no tenga tracción propia. Estas unidades de carga son las que se detallan a continuación: barcazas o planchones, contenedores, furgones, paletas, los remolques y semirremolques, tanques, vagones o plataformas de ferrocarril y otros elementos similares. (Decreto 1165, 2019, art. 3).',
     },
   ],
   complementario: [
