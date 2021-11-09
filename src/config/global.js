@@ -67,7 +67,7 @@ export default {
       },
 
       {
-        nombreRuta: 'tema',
+        nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Componentes',

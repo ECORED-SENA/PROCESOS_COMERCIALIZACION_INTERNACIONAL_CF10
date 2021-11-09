@@ -278,7 +278,7 @@
     p.mb-5 El concepto de unidad de carga significa el agrupamiento de uno o más ítems de carga general que se movilizan como unidad indivisible de carga, con el fin de facilitar el transporte, la manipulación y conservación de la misma y, asimismo, permite evitar daños, pérdidas o saqueos durante su movilización.
           
     p.mb-5 Las dos modalidades más comunes en la unitarización son:
-    .row.justify-content-around.align-items-center.fnd-1
+    .row.justify-content-around.align-items-center
       .col-lg-10
         .row.mb-5    
           .tarjeta--container.row.mb-5
@@ -293,19 +293,19 @@
 
               p Sus principales características son:
 
-              p ●	Alta resistencia al maltrato de la carga y a los daños accidentales que esta pueda sufrir.
-              p ●	Capacidad para soportar la carga.
-              p ●	Resistir la manipulación y el almacenamiento sin estropearse.
+              p <span class='text-white'> ●	</span>Alta resistencia al maltrato de la carga y a los daños accidentales que esta pueda sufrir.
+              p <span class='text-white'> ●	</span>Capacidad para soportar la carga.
+              p <span class='text-white'> ●	</span>Resistir la manipulación y el almacenamiento sin estropearse.
 
               p  Sus ventajas:
 
-              p ●	Minimizar las operaciones de cargue y descargue.
-              p ●	Optimizar los espacios de almacenamiento, ya que permite mayores alturas de apilado.
-              p ●	 Mejor aprovechamiento de los espacios de carga y en los vehículos.
-              p ●	Reducción del riesgo de roturas y pérdidas durante la manipulación y el transporte.
+              p <span class='text-white'> ●	</span>Minimizar las operaciones de cargue y descargue.
+              p <span class='text-white'> ●	</span>Optimizar los espacios de almacenamiento, ya que permite mayores alturas de apilado.
+              p <span class='text-white'> ●	</span>Mejor aprovechamiento de los espacios de carga y en los vehículos.
+              p <span class='text-white'> ●	</span>Reducción del riesgo de roturas y pérdidas durante la manipulación y el transporte.
 
 
-            .col-md.tarjeta.color-acento-botones.p-5
+            .col-md.tarjeta.color-secundario.p-5
               .row.justify-content-center.mb-4
                 .col-6
                   figure
@@ -315,76 +315,87 @@
               p Es el transporte de la mercancía en una unidad llamada contenedor, el cual es un recipiente de carga con unas características específicas, y cuya finalidad es proteger y reunir las mercancías, haciendo más fácil su movilización y transporte; y, además, es lo suficientemente fuerte para ser utilizado varias veces. Se considera como una carga unitaria.            
               p Están fabricados de acuerdo con la normativa ISO <em>(International Organization for Standardization).</em>
               p Sus ventajas:
-              p ●	Proteger la carga.
-              p ●	Facilitar el manejo de la carga.
-              p ●	Facilitar el tráfico de mercancía en el transporte internacional.
-              p ●	 Ahorro de costos.
+              p <span class='tt1'> ●	</span>Proteger la carga.
+              p <span class='tt1'> ●	</span>Facilitar el manejo de la carga.
+              p <span class='tt1'> ●	</span>Facilitar el tráfico de mercancía en el transporte internacional.
+              p <span class='tt1'> ●	</span>Ahorro de costos.
 
 
-    h2.text-center Tipos de contenedores
+
+
+
+          .row.justify-content-around.align-items-center
+            .col-lg-10
+              .row.fnd-33
+                p.text-white.px-5.py-1.text-center.pt-1.text-bold Tipos de contenedores
+          .row.mt-2.mb-5                
               figure
                 img(src='@/assets/tema2/img-24.svg', alt='Texto que describa la imagen')
 
-    h2.text-center De las marcas, números y otras anotaciones de los contenedores 
-    p Todos los contenedores deben tener una identificación con códigos y marcas, los cuales son regulados por la ISO 6346 y su actualización ISO 2716. 
+          .row.justify-content-around.align-items-center
+            .col-lg-10
+              .row.fnd-33
+                p.text-white.px-5.py-1.text-center.pt-1.text-bold De las marcas, números y otras anotaciones de los contenedores 
 
-    p El propietario tiene un código con los siguientes elementos:
+        p Todos los contenedores deben tener una identificación con códigos y marcas, los cuales son regulados por la ISO 6346 y su actualización ISO 2716. 
 
-    p a) Identificación del propietario: consta de 4 letras, donde las primeras tres letras identifican al propietario y la cuarta letra puede tomar los siguientes valores:
+        p El propietario tiene un código con los siguientes elementos:
 
-
-      .row.
-
-      h2 Carga granel
-
-      p.mb-5 Es aquella carga que es transportada en grandes cantidades y sin embalaje; y que se estiba directamente en la bodega de los buques. Esta puede ser: 
-
+    .row    
+      p.mb-5 <b>a) Identificación del propietario:</b> consta de 4 letras, donde las primeras tres letras identifican al propietario y la cuarta letra puede tomar los siguientes valores:
+    .row.justify-content-around.align-items-center
+      .col-lg-10
         .row.mb-5
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/tema2/img-25.svg' alt='AvatarTop')
-              //- .tarjeta debe ir acompañado de una de una de estas clases => 
-              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-              //- estas clases tambien tienen un modificador --borde
-              .tarjeta.color-primario
-                .text-white.p-4
-                  p.text-center U - Para todos los contenedores que cumplen la normativa ISO.
+              .tarjeta.color-secundario--borde.t2.fnd-2
+                .p-4
+                  p.text-center <b>U</b> - Para todos los contenedores que cumplen la normativa ISO.
 
-                  
-                  
-
+          
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/tema2/img-26.svg' alt='AvatarTop')
-              //- .tarjeta debe ir acompañado de una de una de estas clases => 
-              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-              //- estas clases tambien tienen un modificador --borde
-              .tarjeta.color-primario
-                .text-white.p-4
-                  p.text-center J - Para contenedores desmontables.
+              .tarjeta.color-secundario--borde.t2.fnd-2
+                .p-4
+                  p.text-center <b>J </b>- Para contenedores desmontables.
    
                   
 
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/tema2/img-27.svg' alt='AvatarTop')
-              //- .tarjeta debe ir acompañado de una de una de estas clases => 
-              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-              //- estas clases tambien tienen un modificador --borde
-              .tarjeta.color-primario
-                .text-white.p-4
-                  p.text-center Z -  Para tráiler y chasis.
+              .tarjeta.color-secundario--borde.t2.fnd-2
+                .p-4
+                  p.text-center <b>Z</b> -  Para tráiler y chasis.
+          br
+          p.mb-5.mt-4 Este código debe estar registrado en el <em>Bureau International des Containers</em> (BIC).
 
-          p.mb-5 Este código debe estar registrado en el <em>Bureau International des Containers</em> (BIC).
-
-        p b) Número de serie: consta de 6 dígitos, seguidos de otro separado y que normalmente está encuadrado. Este último es el número de verificación y es usado para validar si el código del propietario, el código del grupo y el número de registro han sido adecuadamente transmitidos según normativa ISO. 
+    p <b>b) Número de serie:</b> consta de 6 dígitos, seguidos de otro separado y que normalmente está encuadrado. Este último es el número de verificación y es usado para validar si el código del propietario, el código del grupo y el número de registro han sido adecuadamente transmitidos según normativa ISO. 
 
         p Aparte, se encuentra también una serie de marcas de código que indican las medidas y el tipo de contenedor en cada país, así:
+    .row.justify-content-around.align-items-center
+      .col-lg-10
+        .row.mb-5
+            LineaTiempoD.color-acento-contenido
+              p(numero="1" titulo="Para indicar el país del contenedor") Se usa la abreviación de dicho país (US para Estados Unidos de América, GB para Gran Bretaña, entre otros).
 
-        p Adicional a esto, contiene información como el peso máximo autorizado, la tara o el peso neto. (Comunidad Andina, 2021), encontrando marcas adicionales así:
+              p(numero="2" titulo="El primer dígito")  Indica el tamaño del contenedor, por ejemplo, con el número 2, se hace referencia a un contenedor de 20 pies, y con el número 4, se hace referencia a un contenedor de 40 pies.
+              
+              p(numero="3" titulo="El segundo dígito") Indica la altura del contenedor, por ejemplo, el número 3 indica que es un contenedor de 8’6’’ con túnel para remolque. 
 
+              p(numero="4" titulo="El tercer dígito") Indica el tipo de contenedor, por ejemplo, el número 1 indica que es un contenedor cerrado con ventilación al exterior.
+
+              p(numero="5" titulo="El último dígito") Especifica características especiales.
+
+    p.mb-5 Adicional a esto, contiene información como el peso máximo autorizado, la tara o el peso neto. (Comunidad Andina, 2021), encontrando marcas adicionales así:
+
+    .row.justify-content-around.align-items-center
+      .col-lg-10
+        .row.mb-5
               figure
-                img(src='@/assets/tema2/img-28.svg', alt='Texto que describa la imagen')       
+                img.img-c.img-600(src='@/assets/tema2/img-28-.svg', alt='Texto que describa la imagen')       
 
  
 

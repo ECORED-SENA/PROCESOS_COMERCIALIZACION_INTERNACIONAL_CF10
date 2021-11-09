@@ -38,11 +38,12 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema2" */ '../views/Tema2.vue'),
         },
+
         {
           path: 'tema3',
           name: 'tema3',
           component: () =>
-            import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
+            import(/* webpackChunkName: "tema" */ '../views/Tema3.vue'),
         },
         {
           path: 'tema4',
@@ -56,18 +57,11 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema" */ '../views/Tema5.vue'),
         },
-
         {
           path: 'tema6',
           name: 'tema6',
           component: () =>
             import(/* webpackChunkName: "tema" */ '../views/Tema6.vue'),
-        },
-        {
-          path: 'tema7',
-          name: 'tema7',
-          component: () =>
-            import(/* webpackChunkName: "tema" */ '../views/Tema7.vue'),
         },
       ],
     },

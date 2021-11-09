@@ -1,3 +1,40 @@
+.tabs-a.color-acento-contenido .tabs-a__tab__selected 
+  color: #12263F !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #FD8F25
+.t-av 
+  padding-top: 35px
+
+
+.img-infografica-b__modal 
+    background-color: #4AA9C5
+    padding: 3rem
+.img-infografica-b__modal__contenido div > * 
+    color: #000000 !important
+.tab-aaa>tabs-a__tab 
+    background-color: #ff0606 !important
+    color: #ffffff !important
+.fnd-bl
+  background-color: rgba(255, 255, 255, 0.336) !important
+  padding: 2rem
+  margin: 1rem
+
+.tarjeta.fnd-2
+  background-color: #EBF6FF
+
+.fnd-b
+  background-color: #ffffff !important
+  padding: 2rem 1rem 2rem 1rem !important 
+.t2
+  width: 100% !important
+.cle
+  color: #FD8F25 !important
+  font-size: 10px !important
+  vertical-align: bottom !important 
+.fnd-gris
+  background-color: #E5E6FD !important
+  border-radius: 20px 20px 0 0  !important
+  
 .banner-interno__titulo__icono i 
   color: #12263F !important
 .r-m
@@ -5,19 +42,38 @@
 .img-600
   width: 600px !important
 .img-400
-  width: 400px !important  
+  width: 400px !important    
+.img-240
+  width: 240px !important  
 .img-190
   width: 190px !important 
 .img-150
   width: 150px !important 
+.img-65
+  width: 65px !important 
+.fondo-i
+  background-image: url(../assets/tema3/fnd-1.svg)
+  background-repeat: no-repeat      
+  background-position: bottom center
+  background-size: auto
+  background-repeat: no-repeat
+  overflow: visible  
+
+.r-n
+  border-left: 5px solid #FF9D00
+  padding: 0 0 0 1em
  
+
+  
 .t2
     width: 100% !important
 .tt1
   color: #FF9D00 !important
 .img-a300
   height: 300px !important 
-
+.tab-aaa
+  background-color: #BBABF5 !important
+ 
 .img-c
   justify-content: center!important
   display: block
@@ -25,11 +81,109 @@
 .fnd-1
   background-color: #F3F9FF !important
   padding: 2rem 1rem 2rem 1rem !important  
+.fnd-1a
+  background-color: #F3F9FF !important
+.a-izq 
+  align-items: right
+  padding-right: 0
+  margin-right: 0
 .fnd-2
   background-color: #ffffff !important
 .fnd-3
-
   background-color: #BBABF5 !important
   border-radius: 10px  10px 0 0
+.fnd-33
+  background-color: #472EA6 !important
+  border-radius: 10px  10px 0 0
+.fnd-3a
+  background-color: #472EA6 !important
+  border-radius: 20px  20px 0 0  
+
 .pt-1  
   margin: 0.5em 0em !important  
+$crd-icon-size: 120px
+$crd-padding: 1.5rem
+$crd-width: calc(100% - ((#{$crd-icon-size} / 2))
+  
+.crd_01 
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  align-items: center 
+  padding: 1.5rem 1.5rem 1.5rem 0   
+  z-index: 1
+  //background-color: pink
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: $crd-width
+    height: 100%    
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: $crd-icon-size
+    margin-right: 15px
+    img   
+      width: $crd-icon-size
+  &__txt
+    flex: 1 
+    order: 2    
+
+.cc1
+  background-color: #FD8F25
+  border-radius: 60px
+  width: 60px
+  height: 60px
+  top: 25px
+  transform: translateX(-20%)
+
+.cc3
+  position: absolute
+  left: 50%
+  top: 50%
+  color: #ffffff
+  transform: translate(-50%,-50%)
+
+.degra
+  background: linear-gradient(to bottom, #BBABF5, #ffffff)
+
+
+.crd_02 
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: start
+  align-items: center 
+  // padding: 1.5rem 1.5rem 1.5rem 0   
+  z-index: 1
+  //background-color: pink
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    right: 0
+    width: $crd-width
+    height: 100%    
+    background-color: #ffffff
+    border-radius: 15px
+    z-index: -1
+  &__icon
+    order: 1
+    flex-basis: auto
+    width: $crd-icon-size
+    margin-right: 15px
+    img   
+      width: $crd-icon-size
+  &__txt
+    flex: 1 
+    order: 2  
+
+
+.crd_a 
+  &::before   
+    background-color: #F3F9FF
