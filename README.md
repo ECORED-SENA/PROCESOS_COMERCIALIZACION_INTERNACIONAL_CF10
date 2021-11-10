@@ -1,8 +1,8 @@
 # **Logística y Distribución Física Internacional (DFI)**
 
-## **https://ecored-sena.github.io/PROCESOS_COMERCIALIZACION_INTERNACIONAL_CF10/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/PROCESOS_COMERCIALIZACION_INTERNACIONAL_CF10/](https://ecored-sena.github.io/PROCESOS_COMERCIALIZACION_INTERNACIONAL_CF10/)
 
 #
 
