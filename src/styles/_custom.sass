@@ -55,9 +55,10 @@
   background-image: url(../assets/tema3/fnd-1.svg)
   background-repeat: no-repeat      
   background-position: bottom center
-  background-size: auto
+  background-size: cover
   background-repeat: no-repeat
-  overflow: visible  
+  overflow: visible 
+  margin-inline: -3.4rem
 
 .r-n
   border-left: 5px solid #FF9D00
@@ -212,3 +213,51 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 
 .tarjeta.color-acento-botones 
   background-color: #35e9d13f
+
+.tarjeta-flip.color-primario .tarjeta-flip__img 
+  background-color: #ffffff00
+
+.tarjeta-flip.color-primario .tarjeta-flip__contenido 
+  background-color: #ffffff
+
+.tarjeta-flip__img
+  background-size: auto
+  background-position: center top
+  background-repeat: no-repeat
+
+.tabs-b 
+  border-bottom: 0px 
+
+
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after 
+  background-color: #471E89
+
+
+.bloque2
+  display: none
+
+.cajon-tab
+  background-color: #472EA6
+  p
+    color: #fff
+
+.cajon-tab:hover
+  background-color: #FD8F25
+  p
+    color: #12263F
+    font-weight: bold
+
+
+
+.active
+  background-color: #FD8F25
+
+
+
+@media screen and ( max-width: 992px)
+  .fondo-i
+    margin-inline: -1.4rem
