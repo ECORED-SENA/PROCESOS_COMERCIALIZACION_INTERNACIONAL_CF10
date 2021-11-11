@@ -116,7 +116,7 @@
             .row.mb-5
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar
-                  img(src='@/assets/tema2/img-10.png' alt='AvatarTop')
+                  img(src='@/assets/tema2/img10.png' alt='AvatarTop')
                   .tarjeta.t2.color-primario--borde
                     .p-4
                       h2.text-center Sólida
@@ -136,7 +136,7 @@
 
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar
-                  img(src='@/assets/tema2/img-11.png' alt='AvatarTop')
+                  img(src='@/assets/tema2/img11.png' alt='AvatarTop')
                   .tarjeta.color-primario--borde.t2
                     .p-4
                       h2.text-center Líquida
@@ -159,7 +159,7 @@
               
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar
-                  img(src='@/assets/tema2/img-12.png' alt='AvatarTop')
+                  img(src='@/assets/tema2/img12.png' alt='AvatarTop' style='width: ')
                   .tarjeta.color-primario--borde.t2
                     .p-4
                       h2.text-center Gaseosa

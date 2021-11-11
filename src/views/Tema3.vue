@@ -8,35 +8,35 @@
       .titulo-principal__numero
         span 3
       h1 	Modos y medios de transporte 
+    
     .row.justify-content-around.align-items-center
       .col-lg-10
         .row.mb-5
           figure.mb-5
             img(src='@/assets/tema3/img-1.svg')
+          p.mb-0  Dentro del proceso logístico, el transporte es de suma importancia, pues garantiza el traslado de la mercancía de un lugar a otro, para que esta llegue a su destino en las mejores condiciones y cumpliendo con acuerdos principales, como:
+          
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            .tarjeta-numerada.color-acento-contenido.p-5(style='border-radius: 0; border-top: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #e8e8e8')
+              .tarjeta-numerada__numero
+                .h2.text-white 1
+              p.mb-0.text-center
+                b Llegar dentro del plazo acordado, 
+                b-none usando los vehículos adecuados.
+              
+            .tarjeta-numerada.color-acento-contenido.p-5(style='border-radius: 0; border-top: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #e8e8e8')
+              .tarjeta-numerada__numero
+                .h2.text-white 2
+              p.mb-0.text-center
+                b Entregar sin deterioro, 
+                b-none con protección física idónea.
+              
+        .row.justify-content-center
+          .col-lg-12
+            p Para seleccionar el mejor modo y medio de transporte, es importante conocer y tener en cuenta tanto la naturaleza de la carga como su volumen y, asimismo, los recursos económicos, ya que algunos casos pueden ser costosos o no, dependiendo de los requerimientos que se tengan para su traslado, como el tiempo, el destino, la disponibilidad, la confiabilidad, las restricciones, entre otros. 
 
-          p.mb-5  Dentro del proceso logístico, el transporte es de suma importancia, pues garantiza el traslado de la mercancía de un lugar a otro, para que esta llegue a su destino en las mejores condiciones y cumpliendo con acuerdos principales, como:
-          .row.justify-content-around.align-items-center
-            .col-lg-10
-              .row.mb-5
-                hr
-                .crd_01
-                  .crd_01__icon
-                    .cc1
-                      h1.cc3 1           
-                  .crd_01__txt
-                    p <b>Llegar dentro del plazo acordado</b>, usando los vehículos adecuados.
-                hr
-                .crd_01
-                  .crd_01__icon
-                    .cc1
-                      h1.cc3 2      
-                  .crd_01__txt
-                    p <b>Entregar sin deterioro</b>, con protección física idónea.
-                hr
-          p Para seleccionar el mejor modo y medio de transporte, es importante conocer y tener en cuenta tanto la naturaleza de la carga como su volumen y, asimismo, los recursos económicos, ya que algunos casos pueden ser costosos o no, dependiendo de los requerimientos que se tengan para su traslado, como el tiempo, el destino, la disponibilidad, la confiabilidad, las restricciones, entre otros. 
-
-      separador 
-
+    separador 
     #t_3_1.titulo-segundo
       h2 3.1 Modos de transporte 
 
@@ -46,7 +46,7 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/tema3/img-3-.svg')
-
+        
       div(x="33.75%" y="39.6%" tooltip="Aéreo")
         .row.justify-content-around.align-items-center.align-self-center.fnd-b
           .col-md-8 
@@ -64,7 +64,7 @@
                 | Es una vía muy utilizada para llegar a mercados poco accesibles.
               li
                 | La logística es menos compleja.
-
+              
             .h5 Desventajas:
             ul.lista-ul
               li
@@ -77,7 +77,7 @@
                 | Inadecuado para transporte de mercancías a granel, peso o volumen.
               li
                 | Limitaciones en cuanto a las dimensiones, tamaño y peso.
-
+            
             
           .col-md-4
             figure
@@ -108,7 +108,7 @@
                 |Condiciones de las vías.
               li
                 |Limitaciones en cuanto a las dimensiones y tamaño, por restricciones en carretera.
-
+                    
           .col-md-4
             figure
               img(src='@/assets/tema3/img-5.svg')
@@ -141,6 +141,7 @@
           .col-md-4
             figure
               img(src='@/assets/tema3/img-6.svg')
+      
       div(x="67.8%" y="67.5%" tooltip="Marítimo")
         .row.justify-content-around.align-items-center.align-self-center.fnd-b
           .col-md-8 
@@ -160,7 +161,7 @@
                 | El nivel de alcance y cobertura de este medio es casi absoluto. 
               li 
                 | Es muy seguro.
-
+              
             h6 Desventajas:
             ul.lista-ul
               li
@@ -171,33 +172,98 @@
             figure
               img(src='@/assets/tema3/img-3.svg')
     
-    separador 
 
+    separador 
     #t_3_2.titulo-segundo
       h2 3.2	Medios de transporte
     
     p.mb-5  Es el vehículo utilizado para realizar la operación, teniendo en cuenta el modo de transporte seleccionado. Pueden ser buque, avión, camión o ferrocarril.
 
-        TabsB.color-acento-contenido.mb-5
-          .py-4.py-md-5(titulo="Buques" :icono="require('@/assets/tema3/img-7.svg')")
-            .row
-              SlyderB.mb-5(:datos="datosSlyder1")  
-            
+    TabsB.color-acento-contenido.mb-5
+      .py-5(titulo="Buques" :icono="require('@/assets/tema3/img-7.svg')")
+        
+        .row.justify-content-center
+              .col-lg-10
+                .p-3(style='background-color: #5B46A9; border-top-left-radius: 30px; border-top-right-radius: 30px; ')
+                  h4.mb-0.text-white.text-center Buques
               
-          .py-4.py-md-5(titulo="Aviones" :icono="require('@/assets/tema3/img-8.svg')")
-            .row
-              SlyderB.mb-5(:datos="datosSlyder2")   
+        .row.px-5.px-lg-4.pt-5.justify-content-center(style='background-color: #F6F6F6; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; ')
+          .col-lg-10
             
-          .py-4.py-md-5(titulo="Camiones" :icono="require('@/assets/tema3/img-9.svg')")
-            .row
-              SlyderB.mb-5(:datos="datosSlyder3")              
+            .row.justify-content-center
+              p.mb-5 De acuerdo con las características de la carga, como naturaleza, peso, volumen, entre otras, existen diferentes tipos de buques:
+              .col-lg-12
+                SlyderE(indicadores="derecha")
+                  .row
+                    .col-md-6.mb-4.mb-md-0
+                      h3 Portacontenedores
+                      p.mb-0 Son buques que, por su capacidad y forma, transportan su carga en contenedores estándar. 
+                  
+                    .col-md-6
+                      figure
+                        img(src='@/assets/tema3/img11.png', alt='imagen ambiental')
+                    
+                  .row
+                    .col-md-6.mb-4.mb-md-0
+                      h3 Graneleros para cargas sólidas (en inglés, <em>Bulk Carrier</em>)
+                      p.mb-0 Son buques que transportan mercancía a granel, como minerales, granos, semillas, y que, para tal fin, tienen un diseño que permite el acceso a sus bodegas para facilitar el cargue y el descargue. 
+                            
+                    .col-md-6
+                      figure
+                        img(src='@/assets/tema3/img12.png', alt='imagen ambiental')
+                    
+                  .row
+                    .col-md-6.mb-4.mb-md-0
+                      h3 Buque tanque
+                      p.mb-0 Son buques que se utilizan para el transporte de carga líquida y, de acuerdo al tipo de líquido que llevan, reciben su nombre. Por ejemplo, si transportan crudos de petróleo, se llaman petroleros; para gases licuados, se llaman gaseros (por ejemplo, los metaneros); para productos químicos, se llaman quimiqueros.
+                  
+                    .col-md-6
+                      figure
+                        img(src='@/assets/tema3/img13.png', alt='imagen ambiental')
+                    
+                  .row
+                    .col-md-6.mb-4.mb-md-0
+                      h3 Frigorífico
+                      p.mb-0 Se utilizan para el transporte de productos perecederos, los cuales, por su condición, requieren un ambiente con temperatura controlada, como son las frutas, verduras, carnes, pescados, productos lácteos y otros alimentos.
+                  
+                    .col-md-6
+                      figure
+                        img(src='@/assets/tema3/img14.png', alt='imagen ambiental')
+                    
+                  .row
+                    .col-md-6.mb-4.mb-md-0
+                      h3 <em>Roll on/Roll Off (Ro-Ro)</em>
+                      p.mb-0 Utilizados para el transporte de carga rodante, es decir, son capaces de transportar cualquier plataforma con ruedas y esto gracias a su diseño que cuenta con una rampa de acceso.
+                  
+                    .col-md-6
+                      figure
+                        img(src='@/assets/tema3/img15.png', alt='imagen ambiental')
+                    
+                  .row
+                    .col-md-6.mb-4.mb-md-0
+                      h3 Buque de ganado
+                      p.mb-0 Diseñados para el transporte de animales vivos, con áreas especiales para su alimentación.
+                  
+                    .col-md-6
+                      figure
+                        img(src='@/assets/tema3/img16.png', alt='imagen ambiental')
+              
+              
+      .py-4.py-md-5(titulo="Aviones" :icono="require('@/assets/tema3/img-8.svg')")
+        .row
+          SlyderB.mb-5(:datos="datosSlyder2")   
             
-          .py-4.py-md-5(titulo="Ferrocarril" :icono="require('@/assets/tema3/img-10.svg')")
-            .row
-              SlyderB.mb-5(:datos="datosSlyder4")             
-                 
-    separador
+      .py-4.py-md-5(titulo="Camiones" :icono="require('@/assets/tema3/img-9.svg')")
+        .row
+          SlyderB.mb-5(:datos="datosSlyder3")              
+            
+      .py-4.py-md-5(titulo="Ferrocarril" :icono="require('@/assets/tema3/img-10.svg')")
+        .row
+          SlyderB.mb-5(:datos="datosSlyder4")             
 
+
+
+    separador
     #t_3_3.titulo-segundo
       h2 3.3 Fletes de transporte 
 
@@ -759,53 +825,6 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    datosSlyder1: [
-      {
-        titulo: 'Buques',
-        texto:
-          'De acuerdo con las características de la carga, como naturaleza, peso, volumen, entre otras, existen diferentes tipos de buques: Portacontenedores: Son buques que, por su capacidad y forma, transportan su carga en contenedores estándar. ',
-
-        imagen: require('@/assets/tema3/img-11.svg'),
-
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Buques',
-        texto:
-          'De acuerdo con las características de la carga, como naturaleza, peso, volumen, entre otras, existen diferentes tipos de buques:Graneleros para cargas sólidas (en inglés, Bulk Carrier): Son buques que transportan mercancía a granel, como minerales, granos, semillas, y que, para tal fin, tienen un diseño que permite el acceso a sus bodegas para facilitar el cargue y el descargue. ',
-        imagen: require('@/assets/tema3/img-12.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Buques',
-        texto:
-          'De acuerdo con las características de la carga, como naturaleza, peso, volumen, entre otras, existen diferentes tipos de buques:Buque tanque: Son buques que se utilizan para el transporte de carga líquida y, de acuerdo al tipo de líquido que llevan, reciben su nombre. Por ejemplo, si transportan crudos de petróleo, se llaman petroleros; para gases licuados, se llaman gaseros (por ejemplo, los metaneros); para productos químicos, se llaman quimiqueros. ',
-        imagen: require('@/assets/tema3/img-13.svg'),
-        leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Buques',
-        texto:
-          'De acuerdo con las características de la carga, como naturaleza, peso, volumen, entre otras, existen diferentes tipos de buques: Frigorífico: Se utilizan para el transporte de productos perecederos, los cuales, por su condición, requieren un ambiente con temperatura controlada, como son las frutas, verduras, carnes, pescados, productos lácteos y otros alimentos.',
-        imagen: require('@/assets/tema3/img-14.svg'),
-        leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Buques',
-        texto:
-          'De acuerdo con las características de la carga, como naturaleza, peso, volumen, entre otras, existen diferentes tipos de buques: Roll on/Roll Off (Ro-Ro): Utilizados para el transporte de carga rodante, es decir, son capaces de transportar cualquier plataforma con ruedas y esto gracias a su diseño que cuenta con una rampa de acceso.',
-        imagen: require('@/assets/tema3/img-15.svg'),
-        leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo: 'Buques',
-        texto:
-          'De acuerdo con las características de la carga, como naturaleza, peso, volumen, entre otras, existen diferentes tipos de buques: Buque de ganado: Diseñados para el transporte de animales vivos, con áreas especiales para su alimentación.',
-        imagen: require('@/assets/tema3/img-16.svg'),
-        leyendaImagen: 'Leyenda de la imagen',
-      },
-    ],
-
     datosSlyder2: [
       {
         titulo: 'Aviones de carga y pasajeros',
