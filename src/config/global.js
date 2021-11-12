@@ -242,6 +242,12 @@ export default {
   referencias: [
     {
       referencia:
+        'Ballou, R. (2004). Logística, administración de la cadena de suministro. Pearson Educación.',
+      link:
+        'https://dokumen.tips/documents/distribucion-fisica-internacional-alberto-ruibal-handabaka.html',
+    },
+    {
+      referencia:
         'Cámara de Comercio de Bogotá. (2010). Guía práctica: logística y distribución física internacional: clave en las operaciones de comercio exterior',
       link: 'http://hdl.handle.net/11520/25206',
     },
@@ -263,10 +269,6 @@ export default {
     {
       referencia:
         'Ruibal, A. (1994). Gestión logística de la Distribución Física Internacional. Grupo Editorial Norma S.A.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
       link:
         'https://dokumen.tips/documents/distribucion-fisica-internacional-alberto-ruibal-handabaka.html',
     },
@@ -321,31 +323,22 @@ export default {
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Cámara de Comercio Internacional. (2020). <em>Incoterms 2020</em>. Procolombia.',
+      tipo: 'Artículo',
+      link:
+        'https://www.colombiatrade.com.co/herramientas-del-exportador/logistica/incoterms-2020',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Cámara de Comercio de Bogotá. (2019a). Guía práctica: Proceso general de exportación en Colombia: 10 Pasos para exportar.',
+      tipo: 'Guía Práctica',
+      descarga: '/downloads/guia_proceso_exportacion.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Cámara de Comercio de Bogotá (2019b). Guía práctica: Proceso general de una importación en Colombia.',
+      tipo: 'Guía Práctica',
+      descarga: '/downloads/guia_importacion.pdf',
     },
   ],
   creditos: {
@@ -361,7 +354,27 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Alejandro Acevedo Tabares',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio - Regional Antioquia',
+      },
+      {
+        nombre: 'Beatriz Eugenia Agudelo Vásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -369,43 +382,54 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Oscar Marquez Sanabria'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Jorge Leonardo Camacho Pardo',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella ochoa',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      /*{
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },*/
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
     ],
   },

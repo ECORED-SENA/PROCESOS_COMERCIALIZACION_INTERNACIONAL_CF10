@@ -14,7 +14,7 @@
         figure.mb-5
           img.mx.auto(src='@/assets/tema1/img-1.png')
         
-        p.mb-4  La logística y la cadena de abastecimiento (en inglés, Supply Chain Management) son todas las actividades u operaciones que se llevan a cabo dentro de la empresa para poder dar cumplimiento a su actividad u objetivo principal, que es el de llegar al consumidor final con su producto o servicio; operación que incluye, entre otras cosas, la fabricación, la manipulación, el transporte y la distribución, así como el personal idóneo para el buen funcionamiento de la misma.
+        p.mb-4  La logística y la cadena de abastecimiento (en inglés, <em>Supply Chain Management</em>) son todas las actividades u operaciones que se llevan a cabo dentro de la empresa para poder dar cumplimiento a su actividad u objetivo principal, que es el de llegar al consumidor final con su producto o servicio; operación que incluye, entre otras cosas, la fabricación, la manipulación, el transporte y la distribución, así como el personal idóneo para el buen funcionamiento de la misma.
           
         p.mb-5 La logística comprende toda la operación de almacenamiento, inventarios, transporte y distribución, dentro de la empresa. Al respecto, se encuentran los siguientes conceptos fundamentales:
 

@@ -14,7 +14,7 @@
         figure.mb-5
           img.mx.auto(src='@/assets/tema2/img-1.png')
           
-        p.mb-5  Dentro del proceso de la Distribución Física Internacional, se encuentran los diferentes tipos de carga que deben ser transportados de un lugar a otro, teniendo en cuenta las características principales, para facilitar su manejo, distribución y transporte, con el fin de poder determinar y tomar las decisiones más acertadas, de tal manera que llegue a su destino cumpliendo con todos los términos pactados, en el menor tiempo posible y al menor costo.   
+        p.mb-5 Dentro del proceso de la Distribución Física Internacional, se encuentran los diferentes tipos de carga que deben ser transportados de un lugar a otro, teniendo en cuenta las características principales, para facilitar su manejo, distribución y transporte, con el fin de poder determinar y tomar las decisiones más acertadas, de tal manera que llegue a su destino cumpliendo con todos los términos pactados, en el menor tiempo posible y al menor costo.   
 
 
     #t_2_1.titulo-segundo
@@ -35,7 +35,7 @@
       h2 2.2 Tipos de carga
 
     p.mb-5 Dentro de la carga, se encuentra una clasificación de acuerdo con sus características y presentación, que se relaciona en la siguiente figura:      
-
+    
     figure.mb-5
       img.mx-auto(src='@/assets/tema2/img-3.svg' style='width: 1135px')   
     
@@ -47,7 +47,7 @@
         
       TabsC.color-acento-contenido.mb-4
         .pb-4(titulo="Carga con embalaje")
-          .row.justify-content-center.py-5(style='b border-radius: 10pxackground-color: #FFF;')
+          .row.justify-content-center.py-5(style='b border-radius: 10px; background-color: #FFF;')
             .col-7.col-md-5.mb-4.mb-lg-0
               figure
                 img.mx-auto(src='@/assets/tema2/img-4.svg', style='width: 500px')
@@ -57,7 +57,7 @@
               p.mb-0 Es la carga que requiere de la protección de un recipiente o embalaje por tener unas características especiales. Por ejemplo: cajas de conservas alimenticias, cajones de repuestos para maquinaria, bidones con químicos, entre otros. 
           
         .pb-4(titulo="Carga suelta, sin embalaje")
-          .row.justify-content-center.py-5(style='b border-radius: 10pxackground-color: #FFF;')
+          .row.justify-content-center.py-5(style='b border-radius: 10px; background-color: #FFF;')
             .col-7.col-md-5.mb-4.mb-lg-0
               figure
                 img.mx-auto(src='@/assets/tema2/img-5.png', style='width: 295px;')
@@ -67,7 +67,7 @@
               p.mb-0 Este tipo de carga, no requiere embalaje; por ejemplo: rieles, tubos, llantas, piezas, entre otros.
           
         .pb-4(titulo="Carga unitarizada")
-          .row.justify-content-center.py-5(style='b border-radius: 10pxackground-color: #FFF;')
+          .row.justify-content-center.py-5(style='b border-radius: 10px; background-color: #FFF;')
             .col-7.col-md-5.mb-4.mb-lg-0
               figure
                 img.mx-auto(src='@/assets/tema2/img-6.png', style='width: 500px;')
@@ -77,7 +77,7 @@
               p.mb-0 Es cuando se agrupa una carga general y se embala, con el fin de tener un solo bulto y así poder manipularlo en una sola operación, agilizando también su estiba.
                   
         .pb-4(titulo="Carga paletizada")
-          .row.justify-content-center.py-5(style='b border-radius: 10pxackground-color: #FFF;')
+          .row.justify-content-center.py-5(style='b border-radius: 10px; background-color: #FFF;')
             .col-7.col-md-5.mb-4.mb-lg-0
               figure
                 img.mx-auto(src='@/assets/tema2/img-7.png', style='width: 460px')
@@ -87,7 +87,7 @@
               p.mb-0 Son aquellas mercancías de una misma clase con embalaje estandarizado, que son agrupadas y aseguradas sobre unas paletas, formando un solo bulto, listo para manipularlo con mayor rapidez.
             
         .pb-4(titulo="Carga preeslingada")
-          .row.justify-content-center.py-5(style='b border-radius: 10pxackground-color: #FFF;')
+          .row.justify-content-center.py-5(style='b border-radius: 10px; background-color: #FFF;')
             .col-7.col-md-5.mb-4.mb-lg-0
               figure
                 img.mx-auto(src='@/assets/tema2/img-8.png', style='width: 500px')
@@ -97,7 +97,7 @@
               p.mb-0 Son aquellas cargas que ya vienen listas para ser enganchadas, generalmente son parte de un gran lote. También tienen un embalaje estandarizado.
               
         .pb-4(titulo="Carga contenedorizada")
-          .row.justify-content-center.py-5(style='b border-radius: 10pxackground-color: #FFF;')
+          .row.justify-content-center.py-5(style='b border-radius: 10px; background-color: #FFF;')
             .col-7.col-md-5.mb-4.mb-lg-0
               figure
                 img.mx-auto(src='@/assets/tema2/img-9.png', style='width: 500px')
@@ -200,14 +200,13 @@
             .row.justify-content-center(titulo="Empaque")
               .col-8.col-md-4.mb-4.mb-lg-0.align-self-center
                 figure
-                  img(src='@/assets/tema2/img-13.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/tema2/img-13.svg', alt='imagen ambiental')
                   
-              .col-md-8
-                h4 Empaque
+              .col-md-8.align-self-center
                 p Es aquel cuyas funciones principales son las de contener, conservar, proteger y facilitar el almacenamiento y la distribución de los productos. En este, podemos encontrar una amplia variedad de materiales, entre los más utilizados para empaques de exportación se pueden mencionar:
                 p Plásticos rígidos, semi flexibles y flexibles
                 p Cartón rígido y corrugado, papel, madera y sus derivados.
-                p Papeles flexibles, como bolsas, láminas y multicapas.
+                p.mb-0 Papeles flexibles, como bolsas, láminas y multicapas.
 
             .row.justify-content-center(titulo="Envase")
             
@@ -215,9 +214,8 @@
                 figure
                   img(src='@/assets/tema2/img-14.svg', alt='Texto que describa la imagen')
                   
-              .col-md-8
-                h4 Envase
-                p Es aquel que exhibe o contiene el producto en su presentación individual, dispuesto para la venta de primera mano, y que cumple una función especial, ya que puede impulsar o motivar a los consumidores a adquirir el producto. A este grupo pertenecen las bolsas plásticas, botellas, sistema tetra-brik, enlatados y frascos, entre otros. 
+              .col-md-8.align-self-center
+                p.mb-0 Es aquel que exhibe o contiene el producto en su presentación individual, dispuesto para la venta de primera mano, y que cumple una función especial, ya que puede impulsar o motivar a los consumidores para adquirir el producto. A este grupo pertenecen las bolsas plásticas, botellas, sistema tetra-brik, enlatados y frascos, entre otros. 
 
             .row.justify-content-center(titulo="Embalaje")
                   
@@ -225,17 +223,15 @@
                 figure
                   img(src='@/assets/tema2/img-15.svg')
                   
-              .col-md-8
-                    
-                h4 Embalaje
-                p Es aquel que sirve para proteger el producto durante las operaciones de traslado, transporte, y distribución, para que este llegue al destino seleccionado sin sufrir ningún tipo de deterioro, desde el momento en que sale de las instalaciones en que se realizó la producción o el acondicionamiento. Asimismo, facilita el proceso de almacenamiento, unitarización, distribución y manipuleo.
+              .col-md-8.align-self-center
+                p.mb-0 Es aquel que sirve para proteger el producto durante las operaciones de traslado, transporte, y distribución, para que este llegue al destino seleccionado sin sufrir ningún tipo de deterioro, desde el momento en que sale de las instalaciones en que se realizó la producción o el acondicionamiento. Asimismo, facilita el proceso de almacenamiento, unitarización, distribución y manipuleo.
                 
           .row.justify-content-around.align-items-center
             .col-lg-10
               .row.fnd-3
                 p.px-5.py-1.text-center.pt-1.text-bold En la siguiente imagen, se puede observar claramente la diferencia entre los tres conceptos vistos: 
 
-          .row.justify-content-around.align-items-center.fnd-1.mb-5 
+          .row.justify-content-around.align-items-center.fnd-1.mb-0
             .col-lg-10                
               .row
                 .col-md-4
@@ -245,7 +241,7 @@
                   ul.lista-ul
                     li.img-c
                       i.fas.fa-angle-right.tt1
-                      | Lugar y fecha de embarque.
+                      | Envase o envoltura
                 .col-md-4
                   h5.text-center Envase secundario
                   figure
@@ -262,12 +258,62 @@
                     li.img-c
                       i.fas.fa-angle-right.tt1
                       | Embalaje                                       
+          
+    .row.justify-content-center
+      .col-lg-10    
+        p.mb-5 Finalmente, es importante tener en cuenta la marca o el rotulado del empaque, ya que este ayuda en el proceso de identificación o reconocimiento de los productos y, asimismo, facilita el manejo y la ubicación al momento de ser monitoreados. Para realizar una correcta aplicación de la marca, es necesario tener en cuenta los siguientes aspectos, usando las normas internacionales: 
+          
+        .tarjeta.tarjeta--azul.p-4.pb-0.px-0.mb-5
+          SlyderA
+            .row.justify-content-center
+              .col-lg-12
+                .row.justify-content-center.mb-4.pb-lg-5
+                  .col-md-12.mb-4.mb-md-0.align-self-center.align-items-center
+                    figure.mb-lg-3
+                      img.mx-auto(src='@/assets/tema2/img-19.svg', alt='', style='width: 750px')
+                  
+                .row.justify-content-center.mb-0
+                  .col-lg-12
+                    .p-4(style="background-color: #bdadf540; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;")
+                      .row.justify-content-center
+                        .col-md-11
+                          p.mb-0 
+                            b Marcas estándar: 
+                            b-none refiere información general sobre el importador, destino, dirección, número de referencia, número de unidades.
+            
+            .row.justify-content-center
+              .col-lg-12
+                .row.justify-content-center.mb-4
+                  .col-md-12.mb-4.mb-md-0.align-self-center
+                    figure
+                      img.mx-auto(src='@/assets/tema2/img-20.svg', alt='', style='width: 400px')
+                  
+                .row.justify-content-center.mb-0
+                  .col-lg-12
+                    .p-4(style="background-color: #bdadf540; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;")
+                      .row.justify-content-center
+                        .col-md-11
+                            p.mb-0 
+                              b Marcas informativas: 
+                              b-none muestra información adicional, como: país de origen, puerto de salida, puerto de llegada, peso bruto, peso neto, dimensiones de las cajas.
+            
+            .row.justify-content-center
+              .col-lg-12
+                .row.justify-content-center.mb-4
+                  .col-md-12.mb-4.mb-md-0.align-self-center
+                    figure
+                      img.mx-auto(src='@/assets/tema2/img-21.svg', alt='', style='width: 370px')
+                  
+                .row.justify-content-center.mb-0
+                  .col-lg-12
+                    .p-4(style="background-color: #bdadf540; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;")
+                      .row.justify-content-center
+                        .col-md-11
+                            p.mb-0 
+                              b Marca de manipulación
+                              b-none muestra toda la información que se requiere conocer para el manejo y las advertencias que se deben tener presentes en el momento de la manipulación y/o el transporte de la carga; para este caso, se deben utilizar los símbolos pictóricos internacionalmente aceptados.
 
 
-          p.mb-5 Finalmente, es importante tener en cuenta la marca o el rotulado del empaque, ya que este ayuda en el proceso de identificación o reconocimiento de los productos y, asimismo, facilita el manejo y la ubicación al momento de ser monitoreados. Para realizar una correcta aplicación de la marca, es necesario tener en cuenta los siguientes aspectos, usando las normas internacionales: 
-                
-          .row
-            SlyderC.mb-5(:datos="datosS")
 
     separador
     #t_2_5.titulo-segundo
@@ -492,25 +538,7 @@
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    datosS: [
-      {
-        texto:
-          '<b> Marcas estándar:</b>refiere información general sobre el importador, destino, dirección, número de referencia, número de unidades.',
-        imagen: require('@/assets/tema2/img-19.png'),
-      },
-      {
-        texto:
-          '<b>Marcas informativas:</b> muestra información adicional, como: país de origen, puerto de salida, puerto de llegada, peso bruto, peso neto, dimensiones de las cajas.',
-        imagen: require('@/assets/tema2/img-20.svg'),
-      },
-      {
-        texto:
-          '<b>Marca de manipulación:</b> muestra toda la información que se requiere conocer para el manejo y las advertencias que se deben tener presentes en el momento de la manipulación y/o el transporte de la carga; para este caso, se deben utilizar los símbolos pictóricos internacionalmente aceptados.',
-        imagen: require('@/assets/tema2/img-21.svg'),
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
