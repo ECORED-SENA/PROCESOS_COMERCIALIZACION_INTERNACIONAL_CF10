@@ -28,53 +28,53 @@
       .col-lg-7.mb-5.mb-lg-0
         ol.lista-ol--cuadro.lista-ol--separador
           li 
-            .lista-ol--cuadro__vineta
-              span 1
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 1]
             p.mb-0 <b>Embalaje:</b>, son los costos relacionados con la preparación de la mercancía en origen.
 
           li 
-            .lista-ol--cuadro__vineta
-              span 2
+            .lista-ol--cuadro__vineta.lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 2]  
             p.mb-0 <b>Documentación:</b>, costos de la documentación requerida en el país de origen. Se pueden encontrar aquí: facturas, certificados, licencias, vistos buenos, documentos de transporte.
 
           li 
-            .lista-ol--cuadro__vineta
-              span 3
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 3]
             p.mb-0 <b>Unitarización:</b>, aquí se incluyen el costo de los pallets, los instrumentos de seguridad, la maquinaria, el costo del contenedor, entre otros.
 
           li 
-            .lista-ol--cuadro__vineta
-              span 4
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 4]
             p.mb-0 <b>Almacenamiento:</b>, son los costos de bodegaje en los que se puede incurrir antes de que la mercancía sea embarcada, durante el tránsito internacional, o si hay lugar a transbordos. 
 
           li 
-            .lista-ol--cuadro__vineta
-              span 5
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 5]
             p.mb-0 <b>Manipuleo:</b>, durante la operación del proceso de internacionalización de la mercancía, esta debe ser trasladada o movida de un lugar a otro, implicando manipulación en el país de origen.     
 
           li 
-            .lista-ol--cuadro__vineta
-              span 6
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 6]
             p.mb-0 <b>Transporte:</b>, son los costos o fletes que se deben pagar por la prestación del servicio. 
 
           li 
-            .lista-ol--cuadro__vineta
-              span 7
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 7]
             p.mb-0 <b>Seguro:</b>, costos para asegurar la mercancía; dependen de las características de la carga, del modo de transporte, de la cobertura, entre otros.
 
           li 
-            .lista-ol--cuadro__vineta
-              span 8
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 8]
             p.mb-0 <b>Aduaneros:</b>, relacionados con los derechos e impuestos de aduanas.
 
           li 
-            .lista-ol--cuadro__vineta
-              span 9
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 9]
             p.mb-0 <b>Agente de carga:</b>, costos relacionados con el flete aéreo y terrestre, así como documentación.
 
           li 
-            .lista-ol--cuadro__vineta
-              span 10
+            .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
+              span #[strong 10]
             p.mb-0 <b>Bancarios:</b>, estos costos dependen de las condiciones pactadas en el contrato de compraventa internacional.
           
       .col-10.col-lg-5.mb-5.mb-lg-0.align-self-center
@@ -88,12 +88,12 @@
     
     p.mb-5  De acuerdo con los actores que intervienen y los movimientos requeridos para el traslado de la mercancía durante su transporte, se encuentran los siguientes costos relacionados:
 
-    .row.justify-content-around.align-items-center
+    .row.justify-content-center
       .col-lg-8
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/tema6/img-2.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta(style= "background-color: #F3F9FF;")
             .p-4
               h4 Agente portuario o aeroportuario
               p.mb-0 Costos relacionados con la operación de tránsito en puertos y/o aeropuertos.
@@ -101,7 +101,7 @@
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/tema6/img-3.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta(style= "background-color: #F3F9FF;")
             .p-4
               h4 Agentes de aduana
               p.mb-0 Costos por representación ante la autoridad aduanera.
@@ -109,7 +109,7 @@
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/tema6/img-4.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta(style= "background-color: #F3F9FF;")
             .p-4
               h4 Agente de carga
               p.mb-0 Costos relacionados con el flete aéreo y terrestre, así como documentación.
@@ -117,7 +117,7 @@
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/tema6/img-5.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta(style= "background-color: #F3F9FF;")
             .p-4
               h4 Transporte
               p.mb-0 Son los costos o fletes que se deben pagar por la prestación del servicio.
@@ -125,7 +125,7 @@
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/tema6/img-6.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta(style= "background-color: #F3F9FF;")
             .p-4
               h4 Manipuleo
               p.mb-0 Durante la operación del proceso de internacionalización de la mercancía, esta debe ser trasladada o movida de un lugar a otro, implicando manipulación en el tránsito internacional.
@@ -133,7 +133,7 @@
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/tema6/img-7.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
+          .tarjeta(style= "background-color: #F3F9FF;")
             .p-4
               h4 Seguro
               p.mb-0 Costos para asegurar la mercancía; dependen de las características de la carga, del modo de transporte, de la cobertura, entre otros.
@@ -146,7 +146,7 @@
     
     p.mb-5 De acuerdo con los actores que intervienen y los movimientos requeridos para la entrega y el traslado de la mercancía en destino, encontramos los siguientes costos relacionados:
 
-    .row.justify-content-between(style=' background-color: #bbabf529;')
+    .row.justify-content-between(style=' background-color: #bdabf540;')
       .col-lg-7.py-5
         ul.lista-ul.ps-lg-4
           li 
@@ -237,7 +237,7 @@
               td(style='border-right: 1px solid #e8e8e8') Transporte
               td Agente portuario o Aeroportuario
 
-            tr
+            tr(style='background-color: #D2E1F1')
               td(style='border-right: 1px solid #e8e8e8') Documentación
               td(style='border-right: 1px solid #e8e8e8') Seguro
               td Agente de aduana
@@ -247,7 +247,7 @@
               td(style='border-right: 1px solid #e8e8e8') Aduaneros
               td Agente de carga
 
-            tr
+            tr(style='background-color: #D2E1F1')
               td(style='border-right: 1px solid #e8e8e8') Almacenamiento
               td(style='border-right: 1px solid #e8e8e8') Agente de Carga
               td Administrativos

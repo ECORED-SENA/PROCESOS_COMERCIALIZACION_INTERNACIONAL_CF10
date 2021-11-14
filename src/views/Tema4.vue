@@ -34,7 +34,7 @@
                 img.mx-auto(src='@/assets/tema4/img-2.svg', alt='imagen ambiental' style='width: 250px;')
             .col-md-6.align-self-center
               .p-4(style='background-color: #fff')
-                p.mb-0 Nacen los Incoterms, creados por la Cámara de Comercio Internacional, CCI. La primera versión de la CCI incluye 6 incoterms: FOB, FAS, CIF, C&F, Ex Chip y EX Quay
+                p.mb-0 Nacen los <em>Incoterms</em>, creados por la Cámara de Comercio Internacional, CCI. La primera versión de la CCI incluye 6 <em>incoterms: FOB, FAS, CIF, C&F, Ex Chip y EX Quay</em>
 
           .row.justify-content-center(titulo="1953")
             .col-md-4.mb-4.mb-md-0
@@ -42,7 +42,7 @@
                 img.mx-auto(src='@/assets/tema4/img-2.svg', alt='imagen ambiental' style='width: 250px;')
             .col-md-6.align-self-center
               .p-4(style='background-color: #fff')          
-                p.mb-0 Primera revisión de los Incoterms. Se incluyen 3 nuevos términos para el transporte marítimo: FOR (Free on Rail), FOT (Free on Truck) y DCP (Delivered Costs Paid), más el incoterm EXW.
+                p.mb-0 Primera revisión de los <em>Incoterms</em>. Se incluyen 3 nuevos términos para el transporte marítimo: <em>FOR (Free on Rail), FOT (Free on Truck)</em> y <em>DCP (Delivered Costs Paid)</em>, más el <em>incoterm EXW.</em>
 
           .row.justify-content-center(titulo="1967")
             .col-md-4.mb-4.mb-md-0
@@ -50,7 +50,7 @@
                 img.mx-auto(src='@/assets/tema4/img-2.svg', alt='imagen ambiental' style='width: 250px;')
             .col-md-6.align-self-center
               .p-4(style='background-color: #fff')
-                p Se incorporan dos términos destinados a la entrega en frontera  DAF y entrega en destino DDP.
+                p Se incorporan dos términos destinados a la entrega en frontera  <em>DAF</em> y entrega en destino <em>DDP.</em>
 
           .row.justify-content-center(titulo="1976")
             .col-md-6.mb-4.mb-md-0
@@ -59,7 +59,7 @@
             
             .col-md-6.align-self-center
               .p-4(style='background-color: #fff')
-                p Se adiciona el Incoterm FOB Airport, para tener mayor claridad en la interpretación de este término en el transporte aéreo.
+                p Se adiciona el <em>Incoterm FOB Airport</em>, para tener mayor claridad en la interpretación de este término en el transporte aéreo.
 
           .row.justify-content-center(titulo="1980")
             .col-md-4.mb-4.mb-md-0
@@ -67,15 +67,7 @@
                 img.mx-auto(src='@/assets/tema4/img-2.svg', alt='imagen ambiental' style='width: 250px;')
             .col-md-6.align-self-center
               .p-4(style='background-color: #fff')               
-                p Se adicionan los términos FRC y FCI, que luego evolucionaron a FCA y CIP, respectivamente.
-
-          .row.justify-content-center(titulo="1953")
-            .col-md-4.mb-4.mb-md-0
-              figure
-                img.mx-auto(src='@/assets/tema4/img-2.svg', alt='imagen ambiental' style='width: 250px;')
-            .col-md-6.align-self-center
-              .p-4(style='background-color: #fff')               
-                p Primera revisión de los Incoterms. Se incluyen 3 nuevos términos para el transporte marítimo: FOR (Free on Rail), FOT (Free on Truck) y DCP (Delivered Costs Paid), más el incoterm EXW.
+                p Se adicionan los términos <em>FRC</em> y <em>FCI</em>, que luego evolucionaron a <em>FCA</em> y <em>CIP</em>, respectivamente.
 
           .row.justify-content-center(titulo="1990")
             .col-md-4.mb-4.mb-md-0
@@ -83,7 +75,7 @@
                 img.mx-auto(src='@/assets/tema4/img-2.svg', alt='imagen ambiental' style='width: 250px;')
             .col-md-6.align-self-center
               .p-4(style='background-color: #fff')               
-                p Se eliminaron los términos FOR, FOT y FOB airport.T (Free on Truck) y DCP (Delivered Costs Paid), más el incoterm EXW.
+                p Se eliminaron los términos <em>FOR, FOT y FOB airport</em>.
 
           .row.justify-content-center(titulo="2000")
             .col-md-4.mb-4.mb-md-0
@@ -99,7 +91,7 @@
                 img.mx-auto(src='@/assets/tema4/img-2.svg', alt='imagen ambiental' style='width: 250px;')
             .col-md-6.align-self-center
               .p-4(style='background-color: #fff')               
-                p Se eliminan los términos DAF, DES, DEQ y DDU, y se añaden dos nuevos, DAT y DAP, quedando en total 11.
+                p Se eliminan los términos <em>DAF, DES, DEQ y DDU</em>, y se añaden dos nuevos, <em>DAT</em> y <em>DAP</em>, quedando en total 11.
 
           .row.justify-content-center(titulo="2020")
             .col-md-4.mb-4.mb-md-0
@@ -107,19 +99,16 @@
                 img.mx-auto(src='@/assets/tema4/img-2.svg', alt='imagen ambiental' style='width: 250px;')
             .col-md-6.align-self-center
               .p-4(style='background-color: #fff')              
-                p Se elimina el término DAT y se añade uno nuevo DPU (Delivered at Place Unloaded). Esta actualización se da por:
+                p Se elimina el término <em>DAT</em> y se añade uno nuevo <em>DPU</em> (<em>Delivered at Place Unloaded</em>). Esta actualización se da por:
                 p - Expansión en zonas de libre comercio.
                 p - Preocupación por la seguridad en los movimientos de mercancía.
                 p - Aumento en el uso de las comunicaciones
 
     .row.justify-content-around.align-items-center 
       .col-lg-10
-        .row
-          h4 Dentro del alcance de los Incoterms, se tiene que determinar:
-          p.mb-5  Los Incoterms nacen de la necesidad de crear un lenguaje internacional uniforme para los términos comerciales, que puedan utilizar todos los actores involucrados en el proceso de internacionalización (exportación e importación). Este conjunto de normas ha sido revisado y actualizado cada diez años, por lo que su última actualización y versión son los Incoterms 2020. Estos son creados y actualizados por la Cámara de Comercio Internacional, CCI, con sede en Francia. A continuación, una breve cronología:
         .row.p-5(style='background-color: #2cffe242;')
+          h4.mb-4 Dentro del alcance de los Incoterms, se tiene que determinar:
           .col-md-8.mb-4.mb-md-0
-            h4 Tipo de embalaje: 
             ul.lista-ul
               li 
                 i.fas.fa-circle.cle
@@ -258,7 +247,7 @@
                   img(src='@/assets/tema4/img-5.svg' alt='AvatarTop')
                 .tarjeta(style='background-color: #F3F9FF; border-radius: 0')
                   .p-4
-                    h4 FAS – Free Alongside Ship/Franco Al Costado del Buque
+                    h4 <em>FAS – Free Alongside Ship</em> / Franco Al Costado del Buque
                     p.mb-0 El vendedor entrega la mercancía cuando ha sido colocada al costado del buque en el puerto acordado.
               
                   
@@ -267,7 +256,7 @@
                   img(src="@/assets/tema4/img-6.svg", alt="AvatarTop")
                 .tarjeta(style='background-color: #F3F9FF; border-radius: 0')
                   .p-4
-                    h4 FOB - Free On Board/Franco A Bordo.   
+                    h4 <em>FOB - Free On Board</em> / Franco A Bordo.   
                     p.mb-0 El vendedor entrega la mercancía cuando ha sido colocada a bordo del buque en el puerto acordado.
                 
               .tarjeta-avatar-b.mb-3
@@ -275,7 +264,7 @@
                   img(src="@/assets/tema4/img-7.svg", alt="AvatarTop")
                 .tarjeta(style='background-color: #F3F9FF; border-radius: 0')
                   .p-4
-                    h4 CFR – Cost And Freight/Costo y Flete  
+                    h4 <em>CFR – Cost And Freight</em> / Costo y Flete  
                     p.mb-0 El vendedor entrega la mercancía cuando esta ha sido colocada a bordo del buque en el puerto convenido, y paga los costos y fletes hasta el puerto de destino.
                 
               .tarjeta-avatar-b.mb-3
@@ -283,7 +272,7 @@
                   img(src="@/assets/tema4/img-8.svg", alt="AvatarTop")
                 .tarjeta(style='background-color: #F3F9FF; border-radius: 0')
                   .p-4
-                    h4 CIF – Cost, Insurance and Freight/Costo, Seguro y Flete  
+                    h4 <em>CIF – Cost, Insurance and Freight</em> / Costo, Seguro y Flete  
                     p.mb-0 El vendedor entrega la mercancía cuando ha sido colocada a bordo del buque en el puerto acordado, y paga los costos, el seguro y los fletes hasta el puerto de destino.
         
     

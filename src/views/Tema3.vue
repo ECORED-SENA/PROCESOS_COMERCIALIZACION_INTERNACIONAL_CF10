@@ -16,29 +16,30 @@
 
         .row.justify-content-center.mb-5
           .col-lg-10
+                
             .tarjeta-numerada.color-acento-contenido.p-5(
-              style='border-radius: 0; border-top: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #e8e8e8'
+              style='border-color: #AFAFAF; border-radius: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #AFAFAF'
             )
               .tarjeta-numerada__numero
                 .h2.text-white 1
-              p.mb-0.text-center
-                b Llegar dentro del plazo acordado,
+              p.mb-0.ps-lg-4
+                b Llegar dentro del plazo acordado, 
                 b-none usando los vehículos adecuados.
-
+            
             .tarjeta-numerada.color-acento-contenido.p-5(
-              style='border-radius: 0; border-top: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #e8e8e8'
+              style='border-radius: 0; border-top: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #AFAFAF'
             )
               .tarjeta-numerada__numero
                 .h2.text-white 2
-              p.mb-0.text-center
-                b Entregar sin deterioro,
+              p.mb-0.ps-lg-4
+                b Entregar sin deterioro, 
                 b-none con protección física idónea.
 
-        .row.justify-content-center
+        .row.justify-content-center.mb-5
           .col-lg-12
             p Para seleccionar el mejor modo y medio de transporte, es importante conocer y tener en cuenta tanto la naturaleza de la carga como su volumen y, asimismo, los recursos económicos, ya que algunos casos pueden ser costosos o no, dependiendo de los requerimientos que se tengan para su traslado, como el tiempo, el destino, la disponibilidad, la confiabilidad, las restricciones, entre otros.
 
-    separador 
+    
     #t_3_1.titulo-segundo
       h2 3.1 Modos de transporte
 
@@ -311,8 +312,8 @@
                       :style='{ "background-image": `url(${require("@/assets/tema3/flip2.png")})` }'
                     )
                     .tarjeta-flip__contenido.p-4
-                      h4.text-center.pt-5 De pasajeros:
-                      p.text-center.pb-5 Utilizados exclusivamente para el transporte de pasajeros.
+                      h4.text-center.pt-5 De carga:
+                      p.text-center.pb-5 Utilizados para el envío de mercancía, y no cuentan con asientos para el transporte de pasajeros.
 
               .col-sm-6.col-lg-4.mb-4.mb-xl-0
                 .tarjeta.tarjeta-flip.color-primario(
@@ -324,8 +325,8 @@
                       :style='{ "background-image": `url(${require("@/assets/tema3/flip3.png")})` }'
                     )
                     .tarjeta-flip__contenido.p-4
-                      h4.text-center.pt-5 De pasajeros:
-                      p.text-center.pb-5 Utilizados exclusivamente para el transporte de pasajeros.
+                      h4.text-center.pt-5 Militares:
+                      p.text-center.pb-5 Utilizados para el ataque o la defensa.
 
             .row.justify-content-center.mb-5(
               style='background-color: #ffff; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px'
@@ -684,11 +685,10 @@
 
     .row.justify-content-center
       .col-lg-10
-        .row.mb-0 
-          .row.justify-content-center
-            .col-lg-10
-              .row.mb-0.fnd-3a
-                h4.text-white.text-center.pt-3 Flete marítimo
+        .row.justify-content-center
+          .col-lg-10
+            .p-3(style='background-color: #5b46a9; border-top-left-radius: 30px; border-top-right-radius: 30px')
+              h4.mb-0.text-white.text-center Flete marítimo
 
         .row.justify-content-center.p-4.pb-0(
           style='background-color: #f3f9ff'
@@ -739,22 +739,28 @@
                 .row(numero='1', titulo='Servicio intermodal')
                   p.mb-0 Es el servicio que se utiliza al usar dos o más medios de transporte diferentes entre dos puntos, y para los cuales se deben tener presentes los requerimientos efectuados por el contratante de la carga.
 
-                .row(numero='2', titulo='Servicio puerta (door)')
+                .row(numero='2', titulo='Servicio puerta (<em>door</em>)')
                   p.mb-0 Es el servicio que se utiliza para entregar la mercancía en destino, teniendo en cuenta que el transportador es responsable de transportar la carga desde la bodega definida por el embarcador (origen) hasta la bodega designada por el consignatario (destino). Todos los costos relacionados corren por cuenta del transportista.
 
-                .row(numero='3', titulo='Servicio puerto (pier)')
+                .row(numero='3', titulo='Servicio puerto (<em>pier</em>)')
                   p.mb-4 La línea naviera es responsable de transportar la carga desde el puerto de origen hasta el puerto de destino. Aquí, el usuario es el responsable de su costo, y se clasifican en:
 
                   ul.lista-ul.mb-0
                     li 
                       i.fas.fa-circle.cle
-                      p <b>Servicio house to house:</b> el exportador es responsable del transporte, desde el punto de origen hasta el punto de destino, incluidos los distintos pasos intermedios.
+                      p.mb-0
+                        b Servicio <em>house to house</em>: 
+                        b-none  el exportador es responsable del transporte, desde el punto de origen hasta el punto de destino, incluidos los distintos pasos intermedios.
                     li 
                       i.fas.fa-circle.cle
-                      p <b> Servicio house to pier:</b> el exportador es responsable del transporte desde el punto de partida hasta que la mercancía se halle a bordo del buque en el puerto de origen.
+                      p.mb-0
+                        b  Servicio <em>house to pier</em>: 
+                        b-none  el exportador es responsable del transporte desde el punto de partida hasta que la mercancía se halle a bordo del buque en el puerto de origen.
                     li 
                       i.fas.fa-circle.cle
-                      p <b>Servicio pier to house:</b> el importador es responsable del transporte, desde que la mercancía se encuentra a bordo del buque en el puerto de destino, hasta el punto de destino final.
+                      p.mb-0
+                        b Servicio <em>pier to house</em>: 
+                        b-none el importador es responsable del transporte, desde que la mercancía se encuentra a bordo del buque en el puerto de destino, hasta el punto de destino final.
 
           .row.mb-5
             h3 Tipos de flete
@@ -762,39 +768,46 @@
 
             TabsA.color-acento-contenido
               .tarjeta.fnd-2.p-4.tab-aaa(
-                titulo='Free In (F.I.)',
+                titulo='<em>Free In (F.I.)</em>',
                 style='border-radius: 0'
-              )
+              ) 
+                h4 <em>Free In (F.I.)</em>
                 p Incluye transporte, desestiba y descargue en puerto destino. El vendedor queda a cargo del cargue y estibe en puerto de origen.
               .tarjeta.fnd-2.p-4.tab-aaa(
-                titulo='Free Out (F.O.)',
+                titulo='<em>Free Out (F.O.)</em>',
                 style='border-radius: 0'
               )
+                h4 <em>Free Out (F.O.)</em>
                 p Incluye cargue en origen, estiba y transporte. El comprador queda a cargo de desestibe y descargue en puerto destino.
               .tarjeta.fnd-2.p-4.tab-aaa(
-                titulo='Free In and Out (F.I.O)',
+                titulo='<em>Free In and Out (F.I.O)</em>',
                 style='border-radius: 0'
               )
+                h4 <em>Free In and Out (F.I.O)</em>
                 p No incluye cargue ni descargue, solamente incluye el transporte.
               .tarjeta.fnd-2.p-4.tab-aaa(
-                titulo='Free In, Out and Stowed (F.I.O.S.)',
+                titulo='<em>Free In, Out and Stowed (F.I.O.S.)</em>',
                 style='border-radius: 0'
               )
+                h4 <em>Free In, Out and Stowed (F.I.O.S.)</em>
                 p No incluye cargue ni descargue ni trimado.
               .tarjeta.fnd-2.p-4.tab-aaa(
-                titulo='Free In, Out, Stowed and Trimmed (F.I.O.S.T.)',
+                titulo='<em>Free In, Out, Stowed and Trimmed (F.I.O.S.T.)</em>',
                 style='border-radius: 0'
               )
+                h4 <em>Free In, Out, Stowed and Trimmed (F.I.O.S.T.)</em>
                 p No incluye el transporte
               .tarjeta.fnd-2.p-4.tab-aaa(
-                titulo='Free In/Liner Out (F.I.L.O.)',
+                titulo='<em>Free In/Liner Out (F.I.L.O.)</em>',
                 style='border-radius: 0'
               )
+                h4 <em>Free In / Liner Out (F.I.L.O.)</em>
                 p Aquí es posible escoger entre el costo del cargue, o cargue y estibe o cargue, estibe y trincado.
               .tarjeta.fnd-2.p-4.tab-aaa(
-                titulo='Liner In/Free Out (L.I.F.O)',
+                titulo='<em>Liner In/Free Out (L.I.F.O)</em>',
                 style='border-radius: 0'
               )
+                h4 <em>Liner In / Free Out (L.I.F.O)</em>
                 p Aquí es posible escoger entre descargue, o descargue y desestibe, o descargue, desestibe y destrincado.
 
         .row.justify-content-center(
@@ -819,13 +832,13 @@
     .row.justify-content-around.align-items-center
       .col-lg-10
         .row.mb-0 
-          .row.justify-content-around.align-items-center
+          .row.justify-content-center
             .col-lg-10
-              .row.mb-0.fnd-3a
-                h4.text-white.text-center.pt-3 Flete aéreo
-
+              .p-3(style='background-color: #5b46a9; border-top-left-radius: 30px; border-top-right-radius: 30px')
+                h4.mb-0.text-white.text-center Flete aéreo
+          
           .row.fnd-1a
-            .col-md-8.p-5
+            .col-md-8.p-5.pb-0
               p Es el costo que debe pagarse por el transporte de mercancía de un aeropuerto a otro.
               ul.lista-ul
                 li 
@@ -837,47 +850,51 @@
             .col-md-4.align-self-start.a-izq 
               figure
                 img(src='@/assets/tema3/img-45.svg')
-
-          .row.justify-content-around.align-items-center.fnd-1
+          
+          .row.justify-content-center.fnd-1
             .col-lg-9
               .row.mb-5
-                hr
-                .crd_01
-                  .crd_01__icon
-                    .cc1.mx-auto
-                      h1.cc3 a
-                  .crd_01__txt
-                    p.mb-4 <b>Por carga general (General Cargo Rates): </b>para todo tipo de carga. Es posible encontrar:
-                    ul.lista-ul 
-                      li 
-                        i.fas.fa-circle.cle
-                        p.mb-0 <b>Flete normal,</b> para cargas con peso máximo de 45 kilos
-                      li 
-                        i.fas.fa-circle.cle
-                        p.mb-0 <b>Flete con descuento,</b> para cargas con peso superior a los 45 kilos. Existen escalas de descuento dependiendo del peso.
-                hr
-                .crd_01
-                  .crd_01__icon
-                    .cc1.mx-auto
-                      h1.cc3 b
-                  .crd_01__txt
-                    p.mb-0 <b>Por clase de mercancía (Class Rates):</b>, aplica para algunos tipos de mercancía, como catálogos, revistas, oro, animales vivos, entre otros.
-                hr
-                .crd_01
-                  .crd_01__icon
-                    .cc1.mx-auto
-                      h1.cc3 c
-                  .crd_01__txt
-                    p <b>Por carga específica (Specific Commodity Rates): </b>, aplica cuando, regularmente, se realizan envíos con un peso mínimo del mismo producto al mismo destino.
-                hr
-
-                .crd_01
-                  .crd_01__icon
-                    .cc1.mx-auto
-                      h1.cc3 d
-                  .crd_01__txt
-                    p.mb-0 <b>Por unidd de transporte (ULD Rates): </b>,se aplica una tarifa fija según la unidad o medio utilizado.
-                hr
+                .tarjeta-numerada.color-acento-contenido.p-5(style='border-color: #AFAFAF; border-radius: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #AFAFAF')
+                  .tarjeta-numerada__numero
+                    .h1.text-white a
+                  p.mb-4.ps-lg-4
+                    b Por carga general (<em>General Cargo Rates</em>): 
+                    b-none usando los vehículos adecuados.
+                  ul.lista-ul.ps-lg-4
+                    li 
+                      i.fas.fa-circle.cle
+                      p.mb-0 <b>Flete normal,</b> para cargas con peso máximo de 45 kilos
+                    li 
+                      i.fas.fa-circle.cle
+                      p.mb-0 <b>Flete con descuento,</b> para cargas con peso superior a los 45 kilos. Existen escalas de descuento dependiendo del peso.
+                  
+                .tarjeta-numerada.color-acento-contenido.p-5(style='border-color: #AFAFAF; border-radius: 0; border-top: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #AFAFAF')
+                  .tarjeta-numerada__numero
+                    .h1.text-white b
+                  p.mb-0.ps-lg-4
+                    b Por clase de mercancía (<em>Class Rates</em>): 
+                    b-none aplica para algunos tipos de mercancía, como catálogos, revistas, oro, animales vivos, entre otros.
+                  
+                  
+                  
+                .tarjeta-numerada.color-acento-contenido.p-5(style='border-color: #AFAFAF; border-radius: 0; border-top: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #AFAFAF')
+                  .tarjeta-numerada__numero
+                    .h1.text-white c
+                  p.mb-0.ps-lg-4
+                    b Por carga específica (<em>Specific Commodity Rates</em>): 
+                    b-none aplica cuando, regularmente, se realizan envíos con un peso mínimo del mismo producto al mismo destino.
+                  
+                  
+                .tarjeta-numerada.color-acento-contenido.p-5(style='border-color: #AFAFAF; border-radius: 0; border-top: 0; border-right: 0; border-left: 0; border-bottom: 2px solid #AFAFAF')
+                  .tarjeta-numerada__numero
+                    .h1.text-white d
+                  p.mb-0.ps-lg-4
+                    b Por unidad de transporte (<em>ULD Rates</em>): 
+                    b-none se aplica una tarifa fija según la unidad o medio utilizado.
+                  
+                
+                
+                
 
             h3 Liquidación
             p.mb-5 Para la liquidación del flete aéreo, se debe tener en cuenta la cantidad en dólares, u otra moneda, que se cobra por cada kilo de peso bruto o de volumen, a conveniencia de la aerolínea.
@@ -892,27 +909,24 @@
                 .col-lg-4
                   figure
                     img.py-3.img-400(src='@/assets/tema3/img-46.svg') 
-
+            
             p La tarifa depende del volumen del embarque, así pues, a mayor cantidad, menor tarifa. En este sentido, se encuentran escalas de 1 a 44kg, de 45 a 99Kg, más de 100kg, más de 300kg, más de 500kg y más de 1.000 kg.
-
+            
             p Cada una de las aerolíneas, a través de la IATA, establece tarifas generales de carga para cada una de sus rutas, teniendo en cuenta el origen y el destino, esto es, el valor mínimo por contrato y las escalas y tarifas correspondientes.
+            
+            p.mb-5 De igual forma, el exportador debe pagar otros cargos adicionales como son:
 
-            p De igual forma, el exportador debe pagar otros cargos adicionales como son:
-
-            .row.mb-5
-              .col-md-6.col-lg.mb-5.mb-lg-0
-                .tarjeta-avatar.mt-0.pt-0
-                  figure
-                    img.py-3.img-400(src='@/assets/tema3/img-63.svg') 
-              .col-md-6.col-lg.mb-5.mb-lg-0
-                .tarjeta-avatar.mt-0.pt-0
-                  figure
-                    img.py-3.img-400(src='@/assets/tema3/img-63.svg') 
-
-              .col-md-6.col-lg.mb-5.mb-lg-0
-                .tarjeta-avatar.mt-0.pt-0
-                  figure
-                    img.py-3.img-400(src='@/assets/tema3/img-63.svg') 
+            .row.justify-content-center.mb-5
+              .col-10.col-lg-4.mb-5.mb-lg-0
+                figure
+                  img.mx-auto(src='@/assets/tema3/img-63.svg' style='width: 295px;') 
+              .col-10.col-lg-4.mb-5.mb-lg-0
+                figure
+                  img.mx-auto(src='@/assets/tema3/img-64.svg' style='width: 295px;') 
+                
+              .col-10.col-lg-4.mb-5.mb-lg-0
+                figure
+                  img.mx-auto(src='@/assets/tema3/img-65.svg' style='width: 295px;') 
 
             h3 Modalidades de pago
             p.mb-4 Dependiendo del momento en el que se realizará el pago del flete, se pueden encontrar las siguientes modalidades:
@@ -921,44 +935,45 @@
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar.t-av
                   img.img-65(src='@/assets/tema3/1.svg', alt='AvatarTop')
-
+                  
                   .tarjeta.color-primario--borde
-                    .p-4
+                    .p-4.px-lg-2
                       p.text-center 
-                        b Prepagado (Prepaid):
+                        b Prepagado (<em>Prepaid</em>)
                       p.text-center Los fletes son cancelados en el momento del embarque de la mercancía.
-
+                    
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar.t-av
                   img.img-65(src='@/assets/tema3/2.svg', alt='AvatarTop')
-
+                  
                   .tarjeta.color-acento-contenido--borde
-                    .p-4
+                    .p-4.px-lg-2
                       p.text-center 
-                        b Por cobrar (Collect):
+                        b Por cobrar (<em>Collect</em>)
                       p.text-center Los fletes se cancelan en destino por el comprador.
-
+                
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar.t-av
                   img.img-65(src='@/assets/tema3/3.svg', alt='AvatarTop')
-
+                
                   .tarjeta.color-acento-botones--borde
-                    .p-4
+                    .p-4.px-lg-2
                       p.text-center 
-                        b De retorno (Return Freight):
-                      p.text-center Flete que paga el exportador cuando la mercancía enviada es rechazada en el puerto de destino o cuando esta se entrega en un puerto distinto al pactado en el conocimiento de embarque.
+                        b De retorno (<em>Return Freight</em>)
+                      p.text-center.mb-0 Flete que paga el exportador cuando la mercancía enviada es rechazada en el puerto de destino o cuando esta se entrega en un puerto distinto al pactado en el conocimiento de embarque.
 
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar.t-av
                   img.img-65(src='@/assets/tema3/4.svg', alt='AvatarTop')
-
+                  
                   .tarjeta.color-secundario--borde.fnd-2
-                    .p-4
+                    .p-4.px-lg-2
                       p.text-center 
-                        b Prorrateado (Prorate Freight):
-                      p.text-center Se paga cuando no es posible entregar la mercancía en el puerto de destino y por tanto debe desviarse a otro puerto, por lo cual se genera un flete proporcional por el nuevo trayecto.
+                        b Prorrateado (<em>Prorate Freight</em>)
+                      p.text-center.mb-0 Se paga cuando no es posible entregar la mercancía en el puerto de destino y por tanto debe desviarse a otro puerto, por lo cual se genera un flete proporcional por el nuevo trayecto.
 
             p.mb-5.text-center Al momento de fijar o negociar el flete, es importante tener en cuenta algunos factores:
+              
             .row.justify-content-center
               .col-lg-11
                 .crd_02.mb-5
@@ -966,7 +981,7 @@
                     figure
                       img(src='@/assets/tema3/img-47.svg') 
                   .crd_02__txt
-                    h4 Ruta:
+                    h4 Ruta
                     p Existen tarifas específicas en cada ruta, relacionadas con características como puertos, tiempo de tránsito, entre otros.
 
                 .crd_02.mb-5
@@ -974,7 +989,7 @@
                     figure
                       img(src='@/assets/tema3/img-48.svg') 
                   .crd_02__txt
-                    h4 Producto:
+                    h4 Producto
                     p Este factor es importante, ya que los productos se encuentran clasificados por su nombre técnico y sus características, con el fin de poder fijar con precisión la tarifa.
 
                 .crd_02.mb-5
@@ -982,7 +997,7 @@
                     figure
                       img(src='@/assets/tema3/img-49.svg') 
                   .crd_02__txt
-                    h4 Valor comercial:
+                    h4 Valor comercial
                     p Para ciertos productos, las tarifas siguen una escala progresiva y ascendente, pues el valor de la mercancía por tonelada – flete define el costo final del mismo.
 
                 .crd_02.mb-5
@@ -990,7 +1005,7 @@
                     figure
                       img(src='@/assets/tema3/img-50.svg') 
                   .crd_02__txt
-                    h4 Relación peso-volumen:
+                    h4 Relación peso-volumen
                     p En este factor, las tarifas siguen una escala progresiva y ascendente, teniendo en cuenta el factor de estiba.
 
                 .crd_02.mb-5
@@ -998,7 +1013,7 @@
                     figure
                       img(src='@/assets/tema3/img-51.svg') 
                   .crd_02__txt
-                    h4 Tipo de embalaje:
+                    h4 Tipo de embalaje
                     p Este factor determina el grado de complejidad de la mercancía para su manipulación y transporte.
 
                 .crd_02.mb-5
@@ -1006,7 +1021,7 @@
                     figure
                       img(src='@/assets/tema3/img-52.svg') 
                   .crd_02__txt
-                    h4 Unitarización de la carga:
+                    h4 Unitarización de la carga
                     p Se cotizan las tarifas de acuerdo con la unidad de carga de que se trate, que por lo general son menores, debido a su fácil manejo.
 
                 .crd_02.mb-5
@@ -1014,7 +1029,7 @@
                     figure
                       img(src='@/assets/tema3/img-53.svg') 
                   .crd_02__txt
-                    h4 Productos peligrosos:
+                    h4 Productos peligrosos
                     p Este factor para fijar el flete depende del grado de peligrosidad de los productos, y se verá reflejado en los recargos aplicados.
 
     separador
@@ -1027,49 +1042,48 @@
       .col-lg-10
         .row.mb-0 
           .row.mb-0.fnd-3a.pt-4
-            p.text-white.text-center.pt-6 <b>A la hora de contratar el contenedor, se puede hacer de la siguiente forma: </b>
-          .row.justify-content-around.align-items-center.degra
-            .col-lg-10
-              .row.mb-5 
-                .tarjeta--container.row.mb-5
-                  .col-md.tarjeta.p-5
+            h4.text-white.text-center.pt-6 A la hora de contratar el contenedor, se puede hacer de la siguiente forma:
+            
+          .row.justify-content-center.degra
+            .col-lg-11
+              .row.mt-4 
+                .row.tarjeta--container
+                  .col-md.tarjeta.p-4
                     .row.justify-content-center.mb-4
-                      .col-10
+                      .col-8.col-lg-10
                         figure
-                          img(src='@/assets/tema3/img-54.svg')
-
-                    h3.text-center FCL (Full Container Load)<br>
-                    p En este caso, el importador o el exportador hacen uso exclusivo de todo el contenedor, es decir, es llenado únicamente con su mercancía. En este caso, ya el transportador o el agente reciben el contenedor con la carga lista y embalada. Hay un único dueño y una única carga en el contenedor.
-
-                  .col-md.tarjeta.p-5
+                          img.mx.auto(src='@/assets/tema3/img-54.svg')
+                        
+                    h3.text-center FCL (<em>Full Container Load</em>)
+                    p.mb-0 En este caso, el importador o el exportador hacen uso exclusivo de todo el contenedor, es decir, es llenado únicamente con su mercancía. En este caso, ya el transportador o el agente reciben el contenedor con la carga lista y embalada. Hay un único dueño y una única carga en el contenedor.
+                        
+                  .col-md.tarjeta.p-4
                     .row.justify-content-center.mb-4
-                      .col-10
+                      .col-8.col-lg-10
                         figure
-                          img(
-                            src='@/assets/tema3/img-55.svg',
-                            alt='Texto que describa la imagen'
-                          )
-
-                    h3.text-center ZONAS FRANCAS DE SERVICIOS<br>
+                          img.mx.auto(src='@/assets/tema3/img-55.svg', alt='Texto que describa la imagen')
+                      
+                    h3.text-center LCL (<em>Less Than Container Load</em>)
                     p A diferencia del término anterior, en este caso, el llenado del contenedor se realiza con mercancías de diferentes empresas, ya que no es posible hacer el llenado de este con una sola carga de una sola empresa; por tanto, aquí la responsabilidad corre por cuenta de la línea naviera. En este caso, el transportador o el agente reciben las piezas de diferentes exportadores para ser consolidadas.
-                    p Es esta una de las mejores opciones para aquellas empresas pequeñas y medianas que manejan bajos volúmenes de mercancía.
+                    p.mb-0 Es esta una de las mejores opciones para aquellas empresas pequeñas y medianas que manejan bajos volúmenes de mercancía.
+
 
     separador
-
     #t_3_5.titulo-segundo
       h2 3.5 Riesgos y seguros
     p.mb-5 El seguro es la forma más obvia y antigua de controlar el riesgo. A continuación, se encuentran los principales riesgos de transporte y las pólizas con mejor cobertura:
 
-    .row.justify-content-around.align-items-center
+    .row.justify-content-center
       .col-lg-10
-        .row.mb-0 
-          .row.justify-content-around.align-items-center
-            .col-lg-10
-              .row.mb-0.fnd-3a
-                h3.text-white.text-center.pt-2 Riesgos
-
-    .row.justify-content-around.align-items-center.fnd-1.mb-5
+        .row.justify-content-center
+          .col-lg-10
+            .p-3(style='background-color: #5b46a9; border-top-left-radius: 30px; border-top-right-radius: 30px')
+              h4.mb-0.text-white.text-center Riesgos
+    
+    .row.justify-content-center.fnd-1.mb-5
       .col-lg-10
+        p.mb-5 Entre los principales riesgos de acuerdo con el modo de transporte, se pueden encontrar: 
+          
         .row.mb-5
           .col-md-6.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
@@ -1157,15 +1171,23 @@
             .tarjeta.color-acento-botones--borde.p-4( titulo='Cobertura básica o pérdida total', style='border: 0; border-radius: 0')
               h4 Cobertura básica o pérdida total
               p Esta cubre las pérdidas o daños (parciales o totales) que sufra la mercancía transportada, como consecuencia de los siguientes eventos:
-              ul.lista-ul
-                li
-                  | Accidente del vehículo transportador.
-                li
-                  | Incendio, rayo, explosión y los hechos tendientes a extinguir el fuego originado por estas causas.
-                li
-                  | Caídas accidentales de bultos al mar durante la navegación o durante las operaciones de cargue, descargue o transbordo.
-                li
-                  | Avería general, común o gruesa, entendiéndose como tal la contribución que proporcionalmente corresponda al asegurado cuando, durante el transporte marítimo o fluvial, se incurra intencional y razonablemente en algún sacrificio o gasto extraordinario para preservar la seguridad de las propiedades comprometidas en la misma aventura, ejemplo: gastos para desencallar un buque, echazón de la mercancía al agua para evitar un naufragio, entre otros.
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  p.mb-0 Accidente del vehículo transportador.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  p.mb-0 Incendio, rayo, explosión y los hechos tendientes a extinguir el fuego originado por estas causas.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  p.mb-0 Caídas accidentales de bultos al mar durante la navegación o durante las operaciones de cargue, descargue o transbordo.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  p.mb-0 Avería general, común o gruesa, entendiéndose como tal la contribución que proporcionalmente corresponda al asegurado cuando, durante el transporte marítimo o fluvial, se incurra intencional y razonablemente en algún sacrificio o gasto extraordinario para preservar la seguridad de las propiedades comprometidas en la misma aventura, ejemplo: gastos para desencallar un buque, echazón de la mercancía al agua para evitar un naufragio, entre otros.
 
             .tarjeta.color-acento-botones--borde.p-4(
               titulo='Falta de entrega',
@@ -1193,7 +1215,7 @@
                   .lista-ol--cuadro__vineta
                     span 1
                   | Monedas y billetes.
-
+                  
                 li 
                   .lista-ol--cuadro__vineta
                     span 2
@@ -1212,28 +1234,21 @@
           h3 Vigencia
           p La vigencia del seguro se da cuando los bienes quedan a disposición del transportador y este finaliza con su entrega al destinatario o a quien los represente, en el lugar de destino establecido en la póliza. Puede ser:
           
-          .row
-            .col-lg-9.px-5
-              hr
-              .crd_01
-                .crd_01__icon.mx-4
-                  .cc1.mx-auto
-                    h1.cc3 a
-
-                .crd_01__txt
-                  p En importaciones: aquí la vigencia del seguro se da con el evento que ocurra primero: la entrega de los bienes en su destino final o el vencimiento de 45 días comunes contados a partir de la fecha de llegada del vehículo que los haya transportado desde el exterior.
-              hr
-              .crd_01
-                .crd_01__icon.mx-4
-                  .cc1.mx-auto
-                    h1.cc3 b
-
-                .crd_01__txt
-                  p En exportaciones: aquí la vigencia del seguro se da con el evento que ocurra primero: la entrega de la mercancía en su destino final o el vencimiento de 30 días comunes contados a partir de la fecha de llegada del vehículo que los haya transportado hasta el lugar de embarque o desembarque.
-              hr
+          .row.justify-content-center
+            .col-lg-9.mb-5.mb-lg-0
+              .tarjeta-numerada.color-acento-contenido.p-5.py-4(style='border-color: #AFAFAF; border-radius: 0; border-left: 0; border-right: 0;')
+                .tarjeta-numerada__numero
+                  .h1.text-white a
+                p.mb-0.ps-lg-2 <b>En importaciones:</b> aquí la vigencia del seguro se da con el evento que ocurra primero: la entrega de los bienes en su destino final o el vencimiento de 45 días comunes contados a partir de la fecha de llegada del vehículo que los haya transportado desde el exterior.
+                
+              .tarjeta-numerada.color-acento-contenido.p-5.py-4(style='border-color: #AFAFAF; border-radius: 0; border-left: 0; border-right: 0; border-top: 0;')
+                .tarjeta-numerada__numero
+                  .h1.text-white b
+                p.mb-0.ps-lg-2 <b>En exportaciones:</b> aquí la vigencia del seguro se da con el evento que ocurra primero: la entrega de la mercancía en su destino final o el vencimiento de 30 días comunes contados a partir de la fecha de llegada del vehículo que los haya transportado hasta el lugar de embarque o desembarque.
+                
             .col-lg-3.align-self-center
               figure
-                img(src='@/assets/tema3/img-59.svg')
+                img.mx-auto(src='@/assets/tema3/img-59.svg', style='width: 170px;')
 
     separador 
     #t_3_6.titulo-segundo
@@ -1248,7 +1263,7 @@
               figure
                 img(src='@/assets/tema3/img-60.svg') 
             .crd_02__txt.p-3
-              h4 Marítimo:
+              h4 Marítimo
               p El documento de transporte es el Conocimiento de Embarque o BL, donde consta la titularidad de la mercancía, el recibo de la mercancía y las condiciones y términos en las que se realiza el transporte (contrato). Este documento es negociable y puede transferirse a un tercero. Es emitido por la naviera.
 
           .crd_02.mb-5.crd_a 
@@ -1256,15 +1271,15 @@
               figure
                 img(src='@/assets/tema3/img-61.svg') 
             .crd_02__txt.p-3
-              h4 Aéreo:
-              p El documento de transporte es la Guía Aérea o Air Waybill, donde solo se indica la aceptación de las mercancías para ser transportadas, y es un documento no negociable que cubre el envío entre dos aeropuertos. Es emitida por la aerolínea.
+              h4 Aéreo
+              p El documento de transporte es la Guía Aérea o <em>Air Waybill</em>, donde solo se indica la aceptación de las mercancías para ser transportadas, y es un documento no negociable que cubre el envío entre dos aeropuertos. Es emitida por la aerolínea.
 
           .crd_02.mb-5.crd_a 
             .crd_02__icon
               figure
                 img(src='@/assets/tema3/img-62.svg') 
             .crd_02__txt.p-3
-              h4 Terrestre:
+              h4 Terrestre
               p El documento de transporte es la Carta Porte o CMR, donde se establecen las responsabilidades y obligaciones de las partes. Generalmente, es el conductor quien completa el formulario, pero es finalmente el exportador el responsable de toda la información y quien firma dicho documento. No se considera título de propiedad y es un documento no negociable.
 
 

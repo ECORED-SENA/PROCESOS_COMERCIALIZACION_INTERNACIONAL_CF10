@@ -290,7 +290,7 @@ export default {
         'Término genérico que comprende el documento marítimo, aéreo, terrestre, fluvial o ferroviario, que el transportador respectivo o el agente de carga internacional o el operador de transporte multimodal entrega como certificación del contrato de transporte y recibo de la mercancía que será entregada al consignatario o destinatario en el lugar de destino. (Decreto 1165, 2019, art. 3).',
     },
     {
-      termino: 'Incoterms',
+      termino: '<em>Incoterms</em>',
       significado:
         'Términos de negociación que definen las responsabilidades y obligaciones para el vendedor y el comprador.',
     },

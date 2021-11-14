@@ -34,28 +34,28 @@
             p.mb-0 #[strong Empresa aseguradora:] son aquellas empresas que nos cubren o aseguran la mercancía de acuerdo con las características de la misma, ante cualquier daño, avería o incidente que se pueda ocasionar durante el traslado desde su lugar de origen hasta su destino, y para ello se debe realizar un pago de acuerdo.
                   
           .tarjeta.color-acento-primario.p-3(x="22%" y="17.5%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Operador Logístico: ] : Encargado de los procesos de almacenamiento, transporte y distribución. 
+            p.mb-0 #[strong Operador Logístico: ] Encargado de los procesos de almacenamiento, transporte y distribución. 
                   
           .tarjeta.color-acento-primario.p-3(x="22%" y="87%" style="background-color: #FFD400; border-radius: 10px")  
             p.mb-0 #[strong Agente de aduanas: ] es aquella persona que nos puede representar ante la aduana en el trámite del despacho de la mercancía, es decir, con la presentación de documentos, la solicitud de inspecciones, el pago de aranceles e impuestos, entre otros. Para dicho fin, se le otorga un poder de representación.
                   
           .tarjeta.color-acento-primario.p-3(x="33.5%" y="35.2%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Navieras:] empresas encargadas del transporte marítimo de mercancía a los diferentes puertos.
+            p.mb-0 #[strong Navieras: ] empresas encargadas del transporte marítimo de mercancía a los diferentes puertos.
                   
           .tarjeta.color-acento-primario.p-3(x="44.8%" y="17.2%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Autoridad portuaria:] encargados del control y la vigilancia en puertos y muelles.
+            p.mb-0 #[strong Autoridad portuaria: ] encargados del control y la vigilancia en puertos y muelles.
                   
           .tarjeta.color-acento-primario.p-3(x="54.8%" y="68%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Aerolíneas:] empresas encargadas del transporte aéreo de mercancía a los diferentes aeropuertos.
+            p.mb-0 #[strong Aerolíneas: ] empresas encargadas del transporte aéreo de mercancía a los diferentes aeropuertos.
                   
           .tarjeta.color-acento-primario.p-3(x="65%" y="87.2%" style="background-color: #FFD400; border-radius: 10px")  
             p.mb-0 #[strong Autoridad aduanera: ] es aquella persona o entidad que ejerce las funciones de vigilancia, control, administración, y demás temas relacionados con el proceso o trámite de aduanas. Para el caso de Colombia, sería la DIAN. 
                   
           .tarjeta.color-acento-primario.p-3(x="77.7%" y="17.5%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Transportista:] Persona encargada del trasporte de la mercancía.
+            p.mb-0 #[strong Transportista: ] Persona encargada del trasporte de la mercancía.
             
           .tarjeta.color-acento-primario.p-3(x="92.7%" y="34.5%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Empresa de transporte terrestre:] : encargadas del transporte terrestre de mercancía a los diferentes puntos o fronteras.
+            p.mb-0 #[strong Empresa de transporte terrestre: ] encargadas del transporte terrestre de mercancía a los diferentes puntos o fronteras.
             
 
 

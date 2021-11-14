@@ -277,7 +277,7 @@
                     .p-4(style="background-color: #bdadf540; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;")
                       .row.justify-content-center
                         .col-md-11
-                          p.mb-0 
+                          p.mb-0.ps-lg-2 
                             b Marcas estándar: 
                             b-none refiere información general sobre el importador, destino, dirección, número de referencia, número de unidades.
             
@@ -293,7 +293,7 @@
                     .p-4(style="background-color: #bdadf540; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;")
                       .row.justify-content-center
                         .col-md-11
-                            p.mb-0 
+                            p.mb-0.ps-lg-2 
                               b Marcas informativas: 
                               b-none muestra información adicional, como: país de origen, puerto de salida, puerto de llegada, peso bruto, peso neto, dimensiones de las cajas.
             
@@ -309,8 +309,8 @@
                     .p-4(style="background-color: #bdadf540; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;")
                       .row.justify-content-center
                         .col-md-11
-                            p.mb-0 
-                              b Marca de manipulación
+                            p.mb-0.ps-lg-2
+                              b Marca de manipulación:  
                               b-none muestra toda la información que se requiere conocer para el manejo y las advertencias que se deben tener presentes en el momento de la manipulación y/o el transporte de la carga; para este caso, se deben utilizar los símbolos pictóricos internacionalmente aceptados.
 
 
@@ -333,7 +333,7 @@
                     img(src='@/assets/tema2/img-22.svg', alt='Texto que describa la imagen')
                 
               h2.text-center a. Paletización<br>
-              p consiste en colocar la carga sobre pallets, los cuales son fabricados en diferentes materiales, como es madera, metal, cartón, plástico, entre otros; y que se encuentran regulados con base en dimensiones estándar de la ISO  <em>(International Organization for Standardization).</em>
+              p Consiste en colocar la carga sobre pallets, los cuales son fabricados en diferentes materiales, como es madera, metal, cartón, plástico, entre otros; y que se encuentran regulados con base en dimensiones estándar de la ISO  <em>(International Organization for Standardization).</em>
 
               p Sus principales características son:
 
@@ -366,8 +366,6 @@
 
 
 
-
-
     .row.justify-content-center
       .col-lg-10
         .row.fnd-33
@@ -375,6 +373,7 @@
                 
     .row.justify-content-center(style=' background-color: #F6F6F6;')
       .col-lg-10.pt-5.mb-5
+        p.mb-5 De acuerdo con las características de la carga, existen diferentes tipos de contenedores:
         .row.justify-content-center.mb-5
           .col-lg-12
             ImagenInfografica.color-acento-contenido
