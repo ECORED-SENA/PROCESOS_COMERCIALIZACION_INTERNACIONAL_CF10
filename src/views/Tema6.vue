@@ -198,7 +198,7 @@
               img(src='@/assets/tema6/img-9.svg' alt='AvatarTop')
               .tarjeta.t2.color-acento-botones
                 .p-4
-                  h2.text-center Administrativos: 
+                  h2.text-center Administrativos
                   ul.lista-ul
                     li                       
                       | Son todos aquellos costos que no están directamente relacionados con la operación, pero que son necesarios para su cumplimiento. Por ejemplo: talento humano..
@@ -208,7 +208,7 @@
               img(src='@/assets/tema6/img-10.svg' alt='AvatarTop')
               .tarjeta.color-acento-botones.t2
                 .p-4
-                  h2.text-center Capital: 
+                  h2.text-center Capital
                   ul.lista-ul
                     li                       
                       | Son los costos del inventario que se tiene para realizar la operación.
