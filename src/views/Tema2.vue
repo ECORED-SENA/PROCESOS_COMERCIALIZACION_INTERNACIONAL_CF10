@@ -263,13 +263,13 @@
       .col-lg-10    
         p.mb-5 Finalmente, es importante tener en cuenta la marca o el rotulado del empaque, ya que este ayuda en el proceso de identificación o reconocimiento de los productos y, asimismo, facilita el manejo y la ubicación al momento de ser monitoreados. Para realizar una correcta aplicación de la marca, es necesario tener en cuenta los siguientes aspectos, usando las normas internacionales: 
           
-        .tarjeta.tarjeta--azul.p-4.pb-0.px-0.mb-5
+        .tarjeta.tarjeta--gris2.p-4.pb-0.px-0.mb-5
           SlyderA
             .row.justify-content-center
               .col-lg-12
                 .row.justify-content-center.mb-4.pb-lg-5
-                  .col-md-12.mb-4.mb-md-0.align-self-center.align-items-center
-                    figure.mb-lg-3
+                  .col-11.col-md-12.mb-4.mb-md-0.align-self-center.align-items-center
+                    figure.mb-0.mb-lg-3
                       img.mx-auto(src='@/assets/tema2/img-19.svg', alt='', style='width: 750px')
                   
                 .row.justify-content-center.mb-0
@@ -283,10 +283,10 @@
             
             .row.justify-content-center
               .col-lg-12
-                .row.justify-content-center.mb-4
-                  .col-md-12.mb-4.mb-md-0.align-self-center
+                .row.justify-content-center.mb-5
+                  .col-md-12.mb-4.mb-md-0.align-self-center.p-2.p-lg-0
                     figure
-                      img.mx-auto(src='@/assets/tema2/img-20.svg', alt='', style='width: 400px')
+                      img.mx-auto(src='@/assets/tema2/img20.svg', alt='', style='width: 400px')
                   
                 .row.justify-content-center.mb-0
                   .col-lg-12
@@ -300,8 +300,8 @@
             .row.justify-content-center
               .col-lg-12
                 .row.justify-content-center.mb-4
-                  .col-md-12.mb-4.mb-md-0.align-self-center
-                    figure
+                  .col-md-12.mb-4.mb-md-0.align-self-center.p-2.p-lg-0
+                    figure.mb-2
                       img.mx-auto(src='@/assets/tema2/img-21.svg', alt='', style='width: 370px')
                   
                 .row.justify-content-center.mb-0
@@ -480,6 +480,8 @@
             
         .row.justify-content-center
           .col-lg-8
+            .titulo-quinto.color-acento-contenido.mb-4
+                h4 Marcas adicionales
             ImagenInfografica.color-acento-contenido
               template(v-slot:imagen)
                 figure

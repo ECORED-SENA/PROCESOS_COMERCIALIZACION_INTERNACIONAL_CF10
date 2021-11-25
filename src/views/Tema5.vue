@@ -28,34 +28,37 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/tema5/img-2.svg', alt='Agentes que intervienen en la cadena DFI') 
+              img(src='@/assets/tema5/img2.svg', alt='Agentes que intervienen en la cadena DFI') 
                             
-          .tarjeta.color-acento-primario.p-3(x="8%" y="35%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Empresa aseguradora:] son aquellas empresas que nos cubren o aseguran la mercancía de acuerdo con las características de la misma, ante cualquier daño, avería o incidente que se pueda ocasionar durante el traslado desde su lugar de origen hasta su destino, y para ello se debe realizar un pago de acuerdo.
+          .tarjeta.color-acento-primario.p-3(x="10.8%" y="54.2%" style="background-color: #FFD400; border-radius: 10px")  
+            p.mb-0 #[strong Exportador:] persona natural o jurídica, que realiza el proceso de venta internacional.
                   
-          .tarjeta.color-acento-primario.p-3(x="22%" y="17.5%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Operador Logístico: ] Encargado de los procesos de almacenamiento, transporte y distribución. 
+          .tarjeta.color-acento-primario.p-3(x="23.6%" y="41.8%" style="background-color: #FFD400; border-radius: 10px")  
+            p.mb-0 #[strong Operador Logístico: ] encargado de los procesos de almacenamiento, transporte y distribución. 
                   
-          .tarjeta.color-acento-primario.p-3(x="22%" y="87%" style="background-color: #FFD400; border-radius: 10px")  
+          .tarjeta.color-acento-primario.p-3(x="23.6%" y="92.2%" style="background-color: #FFD400; border-radius: 10px")  
             p.mb-0 #[strong Agente de aduanas: ] es aquella persona que nos puede representar ante la aduana en el trámite del despacho de la mercancía, es decir, con la presentación de documentos, la solicitud de inspecciones, el pago de aranceles e impuestos, entre otros. Para dicho fin, se le otorga un poder de representación.
                   
-          .tarjeta.color-acento-primario.p-3(x="33.5%" y="35.2%" style="background-color: #FFD400; border-radius: 10px")  
+          .tarjeta.color-acento-primario.p-3(x="36.6%" y="48%" style="background-color: #FFD400; border-radius: 10px")  
             p.mb-0 #[strong Navieras: ] empresas encargadas del transporte marítimo de mercancía a los diferentes puertos.
                   
-          .tarjeta.color-acento-primario.p-3(x="44.8%" y="17.2%" style="background-color: #FFD400; border-radius: 10px")  
+          .tarjeta.color-acento-primario.p-3(x="40.6%" y="92.3%" style="background-color: #FFD400; border-radius: 10px")  
+            p.mb-0 #[strong Agente de carga: ] es la persona natural o jurídica que realiza la intermediación entre el exportador, el importador y el transportista, frente a la operación del transporte de mercancía internacional. 
+                  
+          .tarjeta.color-acento-primario.p-3(x="49%" y="41.8%" style="background-color: #FFD400; border-radius: 10px")  
             p.mb-0 #[strong Autoridad portuaria: ] encargados del control y la vigilancia en puertos y muelles.
                   
-          .tarjeta.color-acento-primario.p-3(x="54.8%" y="68%" style="background-color: #FFD400; border-radius: 10px")  
+          .tarjeta.color-acento-primario.p-3(x="58.4%" y="84.8%" style="background-color: #FFD400; border-radius: 10px")  
             p.mb-0 #[strong Aerolíneas: ] empresas encargadas del transporte aéreo de mercancía a los diferentes aeropuertos.
                   
-          .tarjeta.color-acento-primario.p-3(x="65%" y="87.2%" style="background-color: #FFD400; border-radius: 10px")  
+          .tarjeta.color-acento-primario.p-3(x="71.8%" y="92.2%" style="background-color: #FFD400; border-radius: 10px")  
             p.mb-0 #[strong Autoridad aduanera: ] es aquella persona o entidad que ejerce las funciones de vigilancia, control, administración, y demás temas relacionados con el proceso o trámite de aduanas. Para el caso de Colombia, sería la DIAN. 
                   
-          .tarjeta.color-acento-primario.p-3(x="77.7%" y="17.5%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Transportista: ] Persona encargada del trasporte de la mercancía.
+          .tarjeta.color-acento-primario.p-3(x="77.9%" y="41.8%" style="background-color: #FFD400; border-radius: 10px")  
+            p.mb-0 #[strong Transportista: ] persona encargada del trasporte de la mercancía.
             
-          .tarjeta.color-acento-primario.p-3(x="92.7%" y="34.5%" style="background-color: #FFD400; border-radius: 10px")  
-            p.mb-0 #[strong Empresa de transporte terrestre: ] encargadas del transporte terrestre de mercancía a los diferentes puntos o fronteras.
+          .tarjeta.color-acento-primario.p-3(x="91%" y="54.3%" style="background-color: #FFD400; border-radius: 10px")  
+            p.mb-0 #[strong Importador: ] persona natural o jurídica que realiza el proceso de compra internacional. 
             
 
 

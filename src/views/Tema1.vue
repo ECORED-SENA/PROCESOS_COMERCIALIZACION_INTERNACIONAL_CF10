@@ -21,6 +21,8 @@
 
     .row.justify-content-center
       .col-lg-10
+        .titulo-quinto.color-acento-contenido.mb-5
+          h4 Fundamentación en conceptos logísticos
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
