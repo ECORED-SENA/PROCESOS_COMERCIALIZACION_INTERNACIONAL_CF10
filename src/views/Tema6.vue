@@ -30,52 +30,52 @@
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 1]
-            p.mb-0 <b>Embalaje:</b>, son los costos relacionados con la preparación de la mercancía en origen.
+            p.mb-0 <b>Embalaje:</b> son los costos relacionados con la preparación de la mercancía en origen.
 
           li 
             .lista-ol--cuadro__vineta.lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 2]  
-            p.mb-0 <b>Documentación:</b>, costos de la documentación requerida en el país de origen. Se pueden encontrar aquí: facturas, certificados, licencias, vistos buenos, documentos de transporte.
+            p.mb-0 <b>Documentación:</b> costos de la documentación requerida en el país de origen. Se pueden encontrar aquí: facturas, certificados, licencias, vistos buenos, documentos de transporte.
 
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 3]
-            p.mb-0 <b>Unitarización:</b>, aquí se incluyen el costo de los pallets, los instrumentos de seguridad, la maquinaria, el costo del contenedor, entre otros.
+            p.mb-0 <b>Unitarización:</b> aquí se incluyen el costo de los pallets, los instrumentos de seguridad, la maquinaria, el costo del contenedor, entre otros.
 
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 4]
-            p.mb-0 <b>Almacenamiento:</b>, son los costos de bodegaje en los que se puede incurrir antes de que la mercancía sea embarcada, durante el tránsito internacional, o si hay lugar a transbordos. 
+            p.mb-0 <b>Almacenamiento:</b> son los costos de bodegaje en los que se puede incurrir antes de que la mercancía sea embarcada, durante el tránsito internacional, o si hay lugar a transbordos. 
 
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 5]
-            p.mb-0 <b>Manipuleo:</b>, durante la operación del proceso de internacionalización de la mercancía, esta debe ser trasladada o movida de un lugar a otro, implicando manipulación en el país de origen.     
+            p.mb-0 <b>Manipuleo:</b> durante la operación del proceso de internacionalización de la mercancía, esta debe ser trasladada o movida de un lugar a otro, implicando manipulación en el país de origen.     
 
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 6]
-            p.mb-0 <b>Transporte:</b>, son los costos o fletes que se deben pagar por la prestación del servicio. 
+            p.mb-0 <b>Transporte:</b> son los costos o fletes que se deben pagar por la prestación del servicio. 
 
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 7]
-            p.mb-0 <b>Seguro:</b>, costos para asegurar la mercancía; dependen de las características de la carga, del modo de transporte, de la cobertura, entre otros.
+            p.mb-0 <b>Seguro:</b> costos para asegurar la mercancía; dependen de las características de la carga, del modo de transporte, de la cobertura, entre otros.
 
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 8]
-            p.mb-0 <b>Aduaneros:</b>, relacionados con los derechos e impuestos de aduanas.
+            p.mb-0 <b>Aduaneros:</b> relacionados con los derechos e impuestos de aduanas.
 
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 9]
-            p.mb-0 <b>Agente de carga:</b>, costos relacionados con el flete aéreo y terrestre, así como documentación.
+            p.mb-0 <b>Agente de carga:</b> costos relacionados con el flete aéreo y terrestre, así como documentación.
 
           li 
             .lista-ol--cuadro__vineta(style='border-radius: 100%; min-width: 30px; height: 30px;')
               span #[strong 10]
-            p.mb-0 <b>Bancarios:</b>, estos costos dependen de las condiciones pactadas en el contrato de compraventa internacional.
+            p.mb-0 <b>Bancarios:</b> estos costos dependen de las condiciones pactadas en el contrato de compraventa internacional.
           
       .col-10.col-lg-5.mb-5.mb-lg-0.align-self-center
         figure

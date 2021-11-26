@@ -300,7 +300,7 @@
                       .row.justify-content-center
                         .col-10
                           h4.text-center.pt-5 De pasajeros:
-                          p.text-center.pb-5 utilizados exclusivamente para el transporte de pasajeros.
+                          p.text-center.pb-5 Utilizados exclusivamente para el transporte de pasajeros.
 
               .col-sm-6.col-lg-4.mb-4.mb-xl-0
                 .tarjeta.tarjeta-flip.color-primario(
